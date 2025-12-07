@@ -16,21 +16,24 @@ editor: visual
 ## Journal Paper
 
 ### 🥬 Sustainability
-- **Du, J.**, Wang, W., Wang, S. Seismic resilience comparison of CFST frame and HSS frame structures: An assessment based on economic and carbon emission indicators. **Journal of Constructional Steel Research**, 2024. [Link](https://doi.org/10.1016/j.jcsr.2024.108902), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JCSR2024-Seismic-resilience-comparison)
 
-- **Du, J.**, Wang, W., Lou, T., Zhou, H. Resilience and sustainability-informed probabilistic multi-criteria decision-making framework for design solutions selection. **Journal of Building Engineering**, 2023. [Link](https://doi.org/10.1016/j.jobe.2023.106421), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JBE2023-Resilience-and-sustainability)
+-   **Du, J.**, Wang, W., Wang, S. Seismic resilience comparison of CFST frame and HSS frame structures: An assessment based on economic and carbon emission indicators. **Journal of Constructional Steel Research**, 2024. [Link](https://doi.org/10.1016/j.jcsr.2024.108902), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JCSR2024-Seismic-resilience-comparison.pdf)
+
+-   **Du, J.**, Wang, W., Lou, T., Zhou, H. Resilience and sustainability-informed probabilistic multi-criteria decision-making framework for design solutions selection. **Journal of Building Engineering**, 2023. [Link](https://doi.org/10.1016/j.jobe.2023.106421), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JBE2023-Resilience-and-sustainability.pdf)
 
 ### 🖥️ Structural health monitoring
-- Gao, X., Wang, W., **Du, J.** Bolt load looseness detection for slip-critical blind bolt based on wavelet analysis and deep learning. **Structures**, 2024. [Link](https://doi.org/10.1016/j.istruc.2024.106521), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/Str2024-Bolt-load-looseness-detection)
+
+-   Gao, X., Wang, W., **Du, J.** Bolt load looseness detection for slip-critical blind bolt based on wavelet analysis and deep learning. **Structures**, 2024. [Link](https://doi.org/10.1016/j.istruc.2024.106521), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/Str2024-Bolt-load-looseness-detection.pdf)
 
 ### 🏢 High-performance structural system
-- **Du, J.**, Wang, W., Zhang, J., Liu, X., Karavasilis, T. L. Full-scale shaking table test, numerical analysis, and design strategy of a prefabricated substation equipment cabin. **Engineering Structures**, 2025. [Link](https://doi.org/10.1016/j.engstruct.2025.121391), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/ES2025-Full-scale-shaking-table-test)
 
-- Hou, H., Wang, W., Alam, M. S., Wang, S., **Du, J.** Experimental and Numerical Investigation on Seismic Performance and Yielding Sequence of Coupled-Double Skin Composite Walls. **Thin-Walled Structures**, 2025. [Link](https://doi.org/10.1016/j.tws.2025.113646), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/TWS2025-Experimental-and-Numerical-Investigation)
+-   **Du, J.**, Wang, W., Zhang, J., Liu, X., Karavasilis, T. L. Full-scale shaking table test, numerical analysis, and design strategy of a prefabricated substation equipment cabin. **Engineering Structures**, 2025. [Link](https://doi.org/10.1016/j.engstruct.2025.121391), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/ES2025-Full-scale-shaking-table-test.pdf)
+
+-   Hou, H., Wang, W., Alam, M. S., Wang, S., **Du, J.** Experimental and Numerical Investigation on Seismic Performance and Yielding Sequence of Coupled-Double Skin Composite Walls. **Thin-Walled Structures**, 2025. [Link](https://doi.org/10.1016/j.tws.2025.113646), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/TWS2025-Experimental-and-Numerical-Investigation.pdf)
 
 ### 🤖 ML/DL in structural engineering
-- **Du, J.**, Wang, W. Surrogate model-aided global sensitivity analysis framework for seismic consequences estimation in buildings. **Earthquake Engineering & Structural Dynamics**, 2024. [Link](https://doi.org/10.1002/eqe.4116), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/EESD2024-Surrogate-model-aided)
 
+-   **Du, J.**, Wang, W. Surrogate model-aided global sensitivity analysis framework for seismic consequences estimation in buildings. **Earthquake Engineering & Structural Dynamics**, 2024. [Link](https://doi.org/10.1002/eqe.4116), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/EESD2024-Surrogate-model-aided.pdf)
 
 ## 科研项目
 
