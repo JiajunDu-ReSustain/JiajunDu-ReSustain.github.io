@@ -1,5 +1,5 @@
 ---
-title: "Jiajun DU (杜佳俊)"
+title: "Jiajun DU<br>杜佳俊"
 image: images/Jiajun_profile.png
 about:
   id: hero-heading
@@ -26,7 +26,8 @@ about:
 
 ::: {#hero-heading}
 
-My name is Jiajun Du, a Ph.D. candidate from Tongji University, Shanghai, China. I am a member in the Department of Structural Engineering, and my research field is resilience and sustainability-informed building assessment, optimization, and decision-making. My supervisor is Professor Wei Wang, who is the Deputy Head of Department and an excellent scholar of structural engineering (World’s Top 2% Scientists).
+My name is Jiajun Du, a Ph.D. candidate from Tongji University, Shanghai, China. I am a member in the Department of Structural Engineering, and my research field is resilience and sustainability-informed building assessment, optimization, and decision-making.<br>
+My supervisor is Professor Wei Wang, who is the Deputy Head of Department and an excellent scholar of structural engineering (World’s Top 2% Scientists).<br>
 My research interest includes hazard resilient and sustainability-informed assessment of infrastructure.
 
 
