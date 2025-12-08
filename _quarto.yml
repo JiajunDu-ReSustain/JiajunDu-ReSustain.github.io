@@ -8,7 +8,7 @@ website:
   page-navigation: true
   title: "Jiajun Du"
   site-url: https://JiajunDu-ReSustain.github.io
-  favicon: images/favicon.ico
+  favicon: images/icon.png
   repo-url: https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io
   repo-actions: [edit, issue]
   
