@@ -27,11 +27,11 @@ about:
 ::: {#hero-heading}
 
 My name is Jiajun Du, a Ph.D. candidate from Tongji University, Shanghai, China. I am a member in the Department of Structural Engineering, and my research field is resilience and sustainability-informed building assessment, optimization, and decision-making.<br>
-My supervisor is Professor Wei Wang, who is the Deputy Head of Department and an excellent scholar of structural engineering (World's Top 2% Scientists).<br>
+My supervisor is Professor Wei Wang, who is the Deputy Head of Department and an excellent scholar of structural engineering (World’s Top 2% Scientists).<br>
 My research interest includes hazard resilient and sustainability-informed assessment of infrastructure.
 
 
-## Education
+## Educations
 
 -	2024.09 - Now, Visiting PhD student, Department of Civil and Environmental Engineering, University of Auckland, New Zealand.
 -	2021.09 - Now, PhD student, Department of Structural Engineering, Tongji University, China. (GPA: 91.2/100)
@@ -48,5 +48,10 @@ My research interest includes hazard resilient and sustainability-informed asses
 -	2020 Third Prize of the China Mechanics Competition in Honor of Zhou Peiyuan
 -	2020 National Scholarship awarded by National Ministry of Education China
 -	2019 National Scholarship awarded by National Ministry of Education China
+-	2018 National Scholarship awarded by National Ministry of Education China
+-	2017 First-Class Scholarship awarded by Harbin Institute of Technology
 
+## Academic Service
+
+-	Reviewer for Journal of Constructional Steel Research
 :::
