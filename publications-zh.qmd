@@ -1,0 +1,43 @@
+---
+title: "学术出版"
+editor: visual
+---
+
+::: callout-note
+## 链接
+
+> -   **谷歌学术**: <https://scholar.google.com/citations?user=R41lYV0AAAAJ&hl>
+> -   **ORCID**: <https://orcid.org/0000-0001-5702-604X>
+> -   **ResearchGate:** <https://www.researchgate.net/profile/Jiajun-Du-dujiajun>
+:::
+
+ 
+
+## 期刊论文
+
+### 🥬 可持续性
+
+-   **Du, J.**, Wang, W., Wang, S. Seismic resilience comparison of CFST frame and HSS frame structures: An assessment based on economic and carbon emission indicators. **Journal of Constructional Steel Research**, 2024. [链接](https://doi.org/10.1016/j.jcsr.2024.108902), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JCSR2024-Seismic-resilience-comparison.pdf)
+
+-   **Du, J.**, Wang, W., Lou, T., Zhou, H. Resilience and sustainability-informed probabilistic multi-criteria decision-making framework for design solutions selection. **Journal of Building Engineering**, 2023. [链接](https://doi.org/10.1016/j.jobe.2023.106421), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JBE2023-Resilience-and-sustainability.pdf)
+
+### 🖥️ 结构健康监测
+
+-   Gao, X., Wang, W., **Du, J.** Bolt load looseness detection for slip-critical blind bolt based on wavelet analysis and deep learning. **Structures**, 2024. [链接](https://doi.org/10.1016/j.istruc.2024.106521), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/Str2024-Bolt-load-looseness-detection.pdf)
+
+### 🏢 高性能结构体系
+
+-   **Du, J.**, Wang, W., Zhang, J., Liu, X., Karavasilis, T. L. Full-scale shaking table test, numerical analysis, and design strategy of a prefabricated substation equipment cabin. **Engineering Structures**, 2025. [链接](https://doi.org/10.1016/j.engstruct.2025.121391), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/ES2025-Full-scale-shaking-table-test.pdf)
+
+-   Hou, H., Wang, W., Alam, M. S., Wang, S., **Du, J.** Experimental and Numerical Investigation on Seismic Performance and Yielding Sequence of Coupled-Double Skin Composite Walls. **Thin-Walled Structures**, 2025. [链接](https://doi.org/10.1016/j.tws.2025.113646), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/TWS2025-Experimental-and-Numerical-Investigation.pdf)
+
+### 🤖 结构工程中的机器学习/深度学习
+
+-   **Du, J.**, Wang, W. Surrogate model-aided global sensitivity analysis framework for seismic consequences estimation in buildings. **Earthquake Engineering & Structural Dynamics**, 2024. [链接](https://doi.org/10.1002/eqe.4116), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/EESD2024-Surrogate-model-aided.pdf)
+
+## 科研项目
+
+1.  国家自然科学基金委员会，面上项目，52378182，基于自复位混合阻尼实现钢框架结构综合韧性提升的多性态地震响应机理与设计调控方法研究，2024.01-2027.12，参与
+2.  上海市科技计划项目，22dz1201705，基于数值仿真的高性能模块化空间装配能效提升技术研究，2022.09-2025.08，参与
+3.  国家重点研发计划，2022YFC3801904，全装配抗震高韧性钢框架结构体系与标准化关键技术，2022.11-2026.10，参与
+4.  同济大学地震工程国际合作联合实验室中外合作项目，Resilience and sustainability-informed steel structure design assessment and optimization，参与

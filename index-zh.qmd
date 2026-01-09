@@ -1,0 +1,56 @@
+---
+title: "杜佳俊<br>Jiajun DU"
+image: images/Jiajun_profile.png
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 12em
+  image-shape: round
+  links:
+    - icon: mailbox
+      text: jiajundu@tongji.edu.cn
+      href: mailto:jiajundu@tongji.edu.cn
+    - icon: github
+      text: JiajunDu-ReSustain
+      href: https://github.com/JiajunDu-ReSustain
+    - icon: book
+      text: 谷歌学术
+      href: https://scholar.google.com/citations?user=R41lYV0AAAAJ&hl
+    - icon: fingerprint
+      text: ORCID
+      href: https://orcid.org/0000-0001-5702-604X
+    - icon: people-fill
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Jiajun-Du-dujiajun
+---
+
+::: {#hero-heading}
+
+我的名字是杜佳俊，来自中国上海同济大学的博士研究生。我是结构工程系的一员，我的研究领域是基于韧性和可持续性的建筑评估、优化和决策。<br>
+我的导师是王伟教授，他是系副主任，也是一位优秀的结构工程学者（全球前2%科学家）。<br>
+我的研究兴趣包括基础设施的灾害弹性和可持续性评估。
+
+## 教育背景
+
+- 2024.09 - 至今, 访问博士生, 土木与环境工程系, 奥克兰大学, 新西兰。
+- 2021.09 - 至今, 博士生, 结构工程系, 同济大学, 中国。(GPA: 91.2/100)
+- 2017.09 - 2021.06, 本科, 海洋工程系, 哈尔滨工业大学（威海校区）, 中国。(GPA: 95.0/100)
+- 2014.09 - 2017.06, 山东省烟台第一中学, 中国。
+
+## 荣誉与奖励
+
+- 2024年国家留学基金委“国家建设高水平大学公派研究生项目”奖学金
+- 2024年同济大学结构工程系“黄金枝”奖学金
+- 2024年Q1 Wiley中国开放科学高贡献作者
+- 2021年山东省人力资源和社会保障厅优秀毕业生
+- 2020年全国大学生数学竞赛二等奖
+- 2020年“周培源”大学生力学竞赛三等奖
+- 2020年国家奖学金
+- 2019年国家奖学金
+- 2018年国家奖学金
+- 2017年哈尔滨工业大学一等奖学金
+
+## 学术服务
+
+- 《Journal of Constructional Steel Research》审稿人
+:::
