@@ -3,7 +3,7 @@ project:
   output-dir: docs
   resources:
     - pdf/**
-
+    
 website:
   page-navigation: true
   title: "Jiajun Du"
@@ -24,15 +24,6 @@ website:
         href: index.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "About"
-        href: about.qmd
-
-languages:
-  - id: en
-    lang: en
-    main: true
-  - id: zh
-    lang: zh
 
 format:
   html:
