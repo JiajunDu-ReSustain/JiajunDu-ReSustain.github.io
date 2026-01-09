@@ -1,32 +1,35 @@
-# Shared configuration for all profiles
-# Language-specific settings are in _quarto-zh.yml and _quarto-en.yml
-
 project:
   type: website
-  output-dir: docs
-  resources:
-    - pdf/**
-    - images/**
-    - assets/**
+  output-dir: ../docs/en
 
 website:
   page-navigation: true
   title: "Jiajun Du"
-  site-url: https://JiajunDu-ReSustain.github.io
-  favicon: images/icon.png
+  site-url: https://JiajunDu-ReSustain.github.io/en
+  favicon: ../images/icon.png
   repo-url: https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io
   repo-actions: [edit, issue]
   
   page-footer:
     right: |
       Made with [Quarto](https://quarto.org/)<br>
+  
+  navbar:
+    background: "#A9CCE3"
+    search: true
+    right:
+      - text: "Home"
+        href: index.html
+      - text: "Publications"
+        href: publications.html
 
 format:
   html:
-    theme: styles.scss
+    theme: ../styles.scss
     toc: true
     toc-position: right
     toc-depth: 3
+    lang: en
     include-after-body:
       - text: |
-          <script src="/assets/lang-switch.js"></script>
+          <script src="../assets/lang-switch.js"></script>

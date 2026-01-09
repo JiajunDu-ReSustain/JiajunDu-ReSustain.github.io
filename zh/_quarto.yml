@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: ../docs/zh
+
+website:
+  page-navigation: true
+  title: "杜佳俊"
+  site-url: https://JiajunDu-ReSustain.github.io/zh
+  favicon: ../images/icon.png
+  repo-url: https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io
+  repo-actions: [edit, issue]
+  
+  page-footer:
+    right: |
+      使用 [Quarto](https://quarto.org/) 构建<br>
+  
+  navbar:
+    background: "#A9CCE3"
+    search: true
+    right:
+      - text: "主页"
+        href: index.html
+      - text: "学术成果"
+        href: publications.html
+
+format:
+  html:
+    theme: ../styles.scss
+    toc: true
+    toc-position: right
+    toc-depth: 3
+    lang: zh
+    include-after-body:
+      - text: |
+          <script src="../assets/lang-switch.js"></script>

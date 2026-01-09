@@ -1,0 +1,7 @@
+# English language profile configuration
+# Usage: quarto render --profile en
+# Renders files from en/ directory to docs/en/
+
+project:
+  dir: en
+

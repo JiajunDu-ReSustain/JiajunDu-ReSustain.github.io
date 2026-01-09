@@ -1,0 +1,43 @@
+---
+title: "Publications"
+editor: visual
+---
+
+::: callout-note
+## Links
+
+> -   **Google Scholar**: <https://scholar.google.com/citations?user=R41lYV0AAAAJ&hl>
+> -   **ORCID**: <https://orcid.org/0000-0001-5702-604X>
+> -   **ResearchGate:** <https://www.researchgate.net/profile/Jiajun-Du-dujiajun>
+:::
+
+ 
+
+## Journal Papers
+
+### 🥬 Sustainability
+
+-   **Du, J.**, Wang, W., Wang, S. Seismic resilience comparison of CFST frame and HSS frame structures: An assessment based on economic and carbon emission indicators. **Journal of Constructional Steel Research**, 2024. [Link](https://doi.org/10.1016/j.jcsr.2024.108902), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JCSR2024-Seismic-resilience-comparison.pdf)
+
+-   **Du, J.**, Wang, W., Lou, T., Zhou, H. Resilience and sustainability-informed probabilistic multi-criteria decision-making framework for design solutions selection. **Journal of Building Engineering**, 2023. [Link](https://doi.org/10.1016/j.jobe.2023.106421), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JBE2023-Resilience-and-sustainability.pdf)
+
+### 🖥️ Structural Health Monitoring
+
+-   Gao, X., Wang, W., **Du, J.** Bolt load looseness detection for slip-critical blind bolt based on wavelet analysis and deep learning. **Structures**, 2024. [Link](https://doi.org/10.1016/j.istruc.2024.106521), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/Str2024-Bolt-load-looseness-detection.pdf)
+
+### 🏢 High-Performance Structural Systems
+
+-   **Du, J.**, Wang, W., Zhang, J., Liu, X., Karavasilis, T. L. Full-scale shaking table test, numerical analysis, and design strategy of a prefabricated substation equipment cabin. **Engineering Structures**, 2025. [Link](https://doi.org/10.1016/j.engstruct.2025.121391), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/ES2025-Full-scale-shaking-table-test.pdf)
+
+-   Hou, H., Wang, W., Alam, M. S., Wang, S., **Du, J.** Experimental and Numerical Investigation on Seismic Performance and Yielding Sequence of Coupled-Double Skin Composite Walls. **Thin-Walled Structures**, 2025. [Link](https://doi.org/10.1016/j.tws.2025.113646), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/TWS2025-Experimental-and-Numerical-Investigation.pdf)
+
+### 🤖 ML/DL in Structural Engineering
+
+-   **Du, J.**, Wang, W. Surrogate model-aided global sensitivity analysis framework for seismic consequences estimation in buildings. **Earthquake Engineering & Structural Dynamics**, 2024. [Link](https://doi.org/10.1002/eqe.4116), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/EESD2024-Surrogate-model-aided.pdf)
+
+## Research Projects
+
+1.  National Natural Science Foundation of China, General Project, 52378182, Research on multi-state seismic response mechanism and design control method for comprehensive resilience improvement of steel frame structures based on self-centering hybrid damping, 2024.01-2027.12, Participant
+2.  Shanghai Science and Technology Plan Project, 22dz1201705, Research on high-performance modular space assembly energy efficiency improvement technology based on numerical simulation, 2022.09-2025.08, Participant
+3.  National Key R&D Program, 2022YFC3801904, Fully assembled seismic high-toughness steel frame structure system and standardized key technologies, 2022.11-2026.10, Participant
+4.  Tongji University International Cooperation Joint Laboratory of Earthquake Engineering, Resilience and sustainability-informed steel structure design assessment and optimization, Participant

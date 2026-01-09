@@ -1,0 +1,7 @@
+# Chinese language profile configuration
+# Usage: quarto render --profile zh
+# Renders files from zh/ directory to docs/zh/
+
+project:
+  dir: zh
+
