@@ -15,7 +15,7 @@ website:
       使用 [Quarto](https://quarto.org/) 构建<br>
   
   navbar:
-    background: "#A9CCE3"
+    background: "#1B3A5C"
     search: true
     right:
       - text: "主页"
