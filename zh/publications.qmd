@@ -25,6 +25,8 @@ editor: visual
 
 ### 🏢 高性能结构体系
 
+-   **Du, J.**, Wang, W., Zhang, J., Liu, X., Karavasilis, T. L. Seismic response of a prefabricated substation equipment cabin with base isolation: Full-scale shaking table test and numerical analysis. **Structures**, 2026. [链接](https://doi.org/10.1016/j.istruc.2026.111328), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/Str2026-Seismic-response-of-a-prefabricated-substation.pdf)
+
 -   **Du, J.**, Wang, W., Zhang, J., Liu, X., Karavasilis, T. L. Full-scale shaking table test, numerical analysis, and design strategy of a prefabricated substation equipment cabin. **Engineering Structures**, 2025. [链接](https://doi.org/10.1016/j.engstruct.2025.121391), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/ES2025-Full-scale-shaking-table-test.pdf)
 
 -   Hou, H., Wang, W., Alam, M. S., Wang, S., **Du, J.** Experimental and Numerical Investigation on Seismic Performance and Yielding Sequence of Coupled-Double Skin Composite Walls. **Thin-Walled Structures**, 2025. [链接](https://doi.org/10.1016/j.tws.2025.113646), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/TWS2025-Experimental-and-Numerical-Investigation.pdf)
