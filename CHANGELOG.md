@@ -22,3 +22,8 @@
 - **文件**: `en/publications.qmd`, `zh/publications.qmd`
 - **新增**: Du, J. et al. (2026), Structures, 放在"高性能结构体系"部分首位
 - **PDF**: `pdf/Str2026-Seismic-response-of-a-prefabricated-substation.pdf`
+
+### 5. 页面内容加宽
+- **文件**: `styles.scss`
+- **修改**: 页面整体最大宽度从默认的 ~900px 扩大到 1200px，减少两侧留白
+- **原因**: 内容较多时两侧留白过大，加宽后内容展示更充分
