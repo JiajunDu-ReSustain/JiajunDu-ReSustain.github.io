@@ -95,6 +95,15 @@ $link-hover-color: $blue; /* 链接悬停时的颜色 */
   color: #E8B84B !important;
 }
 
+/* 主页英雄区域布局：左侧照片区30%，右侧内容区70% */
+.quarto-about-trestles .about-entity {
+  flex: 0 0 30% !important;
+}
+
+.quarto-about-trestles .about-contents {
+  flex: 0 0 70% !important;
+}
+
 /* 1. 正文行间距和字体颜色调整 */
 body {
   line-height: 1.7; /* 正文的行间距设置为 1.7 */

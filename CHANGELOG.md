@@ -1,0 +1,24 @@
+# UI 调整历史记录
+
+## 2026-04-23
+
+### 1. 导航栏颜色调整
+- **文件**: `styles.scss`, `zh/_quarto.yml`, `en/_quarto.yml`
+- **修改**: 导航栏背景从深绿色 `#355E3B` 改为墨水蓝 `#1B3A5C`
+- **原因**: 提升学术感，更稳重
+
+### 2. 导航栏文字颜色调整
+- **文件**: `styles.scss`
+- **修改**: 导航栏文字（标题、链接）从灰色改为白色 `#ffffff`
+- **新增**: SCSS变量 `$navbar-fg`（文字色）和 `$navbar-hl`（活跃色）
+- **活跃色**: 金珀色 `#E8B84B`，用于当前页高亮和悬停效果
+
+### 3. 主页布局比例调整
+- **文件**: `styles.scss`
+- **修改**: 主页英雄区域从左右对称改为左侧照片 30% / 右侧内容 70%
+- **原因**: 简介内容较多，右侧需要更多空间，视觉更平衡
+
+### 4. 新增学术成果
+- **文件**: `en/publications.qmd`, `zh/publications.qmd`
+- **新增**: Du, J. et al. (2026), Structures, 放在"高性能结构体系"部分首位
+- **PDF**: `pdf/Str2026-Seismic-response-of-a-prefabricated-substation.pdf`
