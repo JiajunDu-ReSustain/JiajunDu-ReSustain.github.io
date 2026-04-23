@@ -43,6 +43,8 @@ $background-color: $theme-milkcoffee0; /* 页面背景色 */
 
 /* 导航栏 */
 $navbar-bg: #1B3A5C; /* 导航栏背景颜色：墨水蓝 */
+$navbar-fg: #ffffff; /* 导航栏文字颜色：白色 */
+$navbar-hl: #E8B84B; /* 导航栏链接激活颜色：金珀色 */
 
 /* 提示框颜色 */
 $callout-color-note: $theme-darkgreen2; /* 提示框的注释颜色 */
@@ -73,6 +75,25 @@ $link-color: $red; /* 链接的颜色为红色 */
 $link-hover-color: $blue; /* 链接悬停时的颜色 */
 
 /*-- scss:rules --*/
+
+/* 导航栏样式 */
+.navbar {
+  color: #ffffff;
+}
+
+.navbar-title,
+.navbar-title a {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #E8B84B !important;
+}
 
 /* 1. 正文行间距和字体颜色调整 */
 body {
