@@ -33,6 +33,8 @@ editor: visual
 
 ### 🤖 ML/DL in Structural Engineering
 
+-   **Du, J.**, Wang, W., Hou, Z. Graph neural network-enhanced recursive LSTM for bidirectional seismic response prediction of steel framed structures. **Structures**, 2026. [Link](https://doi.org/10.1016/j.istruc.2026.112142), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/Str2026-GNN-enhanced-recursive-LSTM-for-seismic-response-prediction.pdf)
+
 -   **Du, J.**, Wang, W. Surrogate model-aided global sensitivity analysis framework for seismic consequences estimation in buildings. **Earthquake Engineering & Structural Dynamics**, 2024. [Link](https://doi.org/10.1002/eqe.4116), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/EESD2024-Surrogate-model-aided.pdf)
 
 ## Research Projects
