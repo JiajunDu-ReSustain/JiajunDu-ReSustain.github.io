@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>readme – Jiajun Du</title>
+<title>architecture – Jiajun Du</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -119,26 +119,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#jiajun-dus-personal-academic-website" id="toc-jiajun-dus-personal-academic-website" class="nav-link active" data-scroll-target="#jiajun-dus-personal-academic-website">Jiajun Du’s Personal Academic Website</a>
+  <li><a href="#bilingual-website-architecture" id="toc-bilingual-website-architecture" class="nav-link active" data-scroll-target="#bilingual-website-architecture">Bilingual Website Architecture</a>
   <ul class="collapse">
-  <li><a href="#live-site" id="toc-live-site" class="nav-link" data-scroll-target="#live-site">🌐 Live Site</a></li>
-  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">✨ Features</a></li>
-  <li><a href="#technology-stack" id="toc-technology-stack" class="nav-link" data-scroll-target="#technology-stack">🛠️ Technology Stack</a></li>
-  <li><a href="#project-structure" id="toc-project-structure" class="nav-link" data-scroll-target="#project-structure">📁 Project Structure</a></li>
-  <li><a href="#quick-start" id="toc-quick-start" class="nav-link" data-scroll-target="#quick-start">🚀 Quick Start</a>
-  <ul class="collapse">
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
-  <li><a href="#building-the-site" id="toc-building-the-site" class="nav-link" data-scroll-target="#building-the-site">Building the Site</a></li>
-  <li><a href="#local-preview" id="toc-local-preview" class="nav-link" data-scroll-target="#local-preview">Local Preview</a></li>
-  </ul></li>
-  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">📖 Documentation</a></li>
-  <li><a href="#adding-new-content" id="toc-adding-new-content" class="nav-link" data-scroll-target="#adding-new-content">🔧 Adding New Content</a></li>
-  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">📝 License</a></li>
-  <li><a href="#author" id="toc-author" class="nav-link" data-scroll-target="#author">👤 Author</a></li>
-  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">🙏 Acknowledgments</a></li>
+  <li><a href="#directory-structure" id="toc-directory-structure" class="nav-link" data-scroll-target="#directory-structure">Directory Structure</a></li>
+  <li><a href="#build-flow" id="toc-build-flow" class="nav-link" data-scroll-target="#build-flow">Build Flow</a></li>
+  <li><a href="#url-routing" id="toc-url-routing" class="nav-link" data-scroll-target="#url-routing">URL Routing</a></li>
+  <li><a href="#language-switcher-logic" id="toc-language-switcher-logic" class="nav-link" data-scroll-target="#language-switcher-logic">Language Switcher Logic</a></li>
+  <li><a href="#page-template" id="toc-page-template" class="nav-link" data-scroll-target="#page-template">Page Template</a></li>
+  <li><a href="#configuration-cascade" id="toc-configuration-cascade" class="nav-link" data-scroll-target="#configuration-cascade">Configuration Cascade</a></li>
+  <li><a href="#user-experience-flow" id="toc-user-experience-flow" class="nav-link" data-scroll-target="#user-experience-flow">User Experience Flow</a></li>
+  <li><a href="#deployment-pipeline" id="toc-deployment-pipeline" class="nav-link" data-scroll-target="#deployment-pipeline">Deployment Pipeline</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/edit/main/readme.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/edit/main/ARCHITECTURE.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -146,117 +139,220 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="jiajun-dus-personal-academic-website" class="level1">
-<h1>Jiajun Du’s Personal Academic Website</h1>
-<p><a href="https://quarto.org/"><img src="https://img.shields.io/badge/Made%20with-Quarto-blue.svg" class="img-fluid" alt="Quarto"></a> <a href="https://pages.github.com/"><img src="https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-green.svg" class="img-fluid" alt="GitHub Pages"></a></p>
-<p>A bilingual (Chinese/English) academic website built with Quarto and hosted on GitHub Pages.</p>
-<section id="live-site" class="level2">
-<h2 class="anchored" data-anchor-id="live-site">🌐 Live Site</h2>
-<ul>
-<li><strong>English</strong>: <a href="https://JiajunDu-ReSustain.github.io/en/">https://JiajunDu-ReSustain.github.io/en/</a></li>
-<li><strong>Chinese</strong>: <a href="https://JiajunDu-ReSustain.github.io/zh/">https://JiajunDu-ReSustain.github.io/zh/</a></li>
-<li><strong>Auto-detect</strong>: <a href="https://JiajunDu-ReSustain.github.io/">https://JiajunDu-ReSustain.github.io/</a></li>
-</ul>
+<section id="bilingual-website-architecture" class="level1">
+<h1>Bilingual Website Architecture</h1>
+<section id="directory-structure" class="level2">
+<h2 class="anchored" data-anchor-id="directory-structure">Directory Structure</h2>
+<pre><code>JiajunDu-ReSustain.github.io/
+│
+├── Source Files (Edit these)
+│   ├── zh/                          # Chinese source
+│   │   ├── _quarto.yml              # Chinese config
+│   │   ├── index.qmd                # Homepage
+│   │   ├── about.qmd                # About page
+│   │   └── publications.qmd         # Publications
+│   │
+│   ├── en/                          # English source
+│   │   ├── _quarto.yml              # English config
+│   │   ├── index.qmd                # Homepage
+│   │   ├── about.qmd                # About page
+│   │   └── publications.qmd         # Publications
+│   │
+│   ├── assets/
+│   │   └── lang-switch.js           # Language switcher
+│   ├── images/                      # Images
+│   ├── pdf/                         # PDFs
+│   └── styles.scss                  # Styles
+│
+├── Output Files (Generated, served by GitHub Pages)
+│   └── docs/
+│       ├── index.html               # Root redirect
+│       ├── assets/                  # (copied)
+│       ├── images/                  # (copied)
+│       ├── pdf/                     # (copied)
+│       │
+│       ├── zh/                      # Chinese output
+│       │   ├── index.html
+│       │   ├── about.html
+│       │   ├── publications.html
+│       │   └── site_libs/
+│       │
+│       └── en/                      # English output
+│           ├── index.html
+│           ├── about.html
+│           ├── publications.html
+│           └── site_libs/
+│
+└── Build &amp; Documentation
+    ├── build.bat                    # Windows build
+    ├── build.sh                     # Linux/Mac build
+    ├── BUILD_GUIDE.md
+    ├── GIT_WORKFLOW.md
+    ├── IMPLEMENTATION_SUMMARY.md
+    ├── QUICK_REFERENCE.md
+    ├── CHECKLIST.md
+    └── readme.md</code></pre>
 </section>
-<section id="features" class="level2">
-<h2 class="anchored" data-anchor-id="features">✨ Features</h2>
-<ul>
-<li>🌍 <strong>Bilingual Support</strong>: Full Chinese and English versions</li>
-<li>🔄 <strong>Language Switcher</strong>: Automatic page-to-page language switching</li>
-<li>🎨 <strong>Modern UI</strong>: Clean, professional academic design</li>
-<li>📱 <strong>Responsive</strong>: Works on all devices</li>
-<li>🚀 <strong>Fast</strong>: Static HTML for optimal performance</li>
-<li>🔍 <strong>Searchable</strong>: Built-in search for each language</li>
-<li>📄 <strong>PDF Support</strong>: Direct access to publications</li>
-</ul>
+<section id="build-flow" class="level2">
+<h2 class="anchored" data-anchor-id="build-flow">Build Flow</h2>
+<pre><code>Source Files                Build Process              Output
+────────────                ─────────────              ──────
+
+zh/*.qmd     ─┐            
+             ├─→  cd zh &amp;&amp; quarto render  ─→  docs/zh/*.html
+zh/_quarto.yml┘                                  
+
+en/*.qmd     ─┐            
+             ├─→  cd en &amp;&amp; quarto render  ─→  docs/en/*.html
+en/_quarto.yml┘                                  
+
+assets/      ─┐
+images/      ├─→  Copy resources         ─→  docs/assets/
+pdf/         ┘                                docs/images/
+                                              docs/pdf/</code></pre>
 </section>
-<section id="technology-stack" class="level2">
-<h2 class="anchored" data-anchor-id="technology-stack">🛠️ Technology Stack</h2>
-<ul>
-<li><strong>Static Site Generator</strong>: <a href="https://quarto.org/">Quarto</a></li>
-<li><strong>Hosting</strong>: GitHub Pages</li>
-<li><strong>Language Switcher</strong>: Vanilla JavaScript (no dependencies)</li>
-<li><strong>Styling</strong>: Custom SCSS with Bootstrap</li>
-</ul>
+<section id="url-routing" class="level2">
+<h2 class="anchored" data-anchor-id="url-routing">URL Routing</h2>
+<pre><code>GitHub Pages URL Structure:
+
+https://JiajunDu-ReSustain.github.io/
+│
+├─ /                      → docs/index.html (auto-detect &amp; redirect)
+│                            ├─ Browser lang = zh → /zh/
+│                            └─ Browser lang = en → /en/
+│
+├─ /zh/                   → docs/zh/ (Chinese site)
+│  ├─ /zh/index.html      → Homepage
+│  ├─ /zh/about.html      → About
+│  └─ /zh/publications.html → Publications
+│
+└─ /en/                   → docs/en/ (English site)
+   ├─ /en/index.html      → Homepage
+   ├─ /en/about.html      → About
+   └─ /en/publications.html → Publications</code></pre>
 </section>
-<section id="project-structure" class="level2">
-<h2 class="anchored" data-anchor-id="project-structure">📁 Project Structure</h2>
-<pre><code>.
-├── zh/                  # Chinese content
-├── en/                  # English content
-├── docs/                # Rendered output (served by GitHub Pages)
-│   ├── zh/             # Chinese HTML
-│   ├── en/             # English HTML
-│   └── index.html      # Root redirect
-├── assets/              # JavaScript files
-├── images/              # Images and icons
-├── pdf/                 # Publication PDFs
-└── build.bat/sh         # Build scripts</code></pre>
+<section id="language-switcher-logic" class="level2">
+<h2 class="anchored" data-anchor-id="language-switcher-logic">Language Switcher Logic</h2>
+<pre><code>User visits page
+     ↓
+JavaScript detects URL path
+     ↓
+   /zh/  ───────────────→  Show "EN" button
+     ↓                           ↓
+   Current URL            Replace /zh/ → /en/
+     ↓                           ↓
+/zh/about.html          Target: /en/about.html
+     ↓                           ↓
+User clicks "EN"         Navigate to /en/about.html
+                                 ↓
+                         Show "中文" button
+
+
+User visits page
+     ↓
+JavaScript detects URL path
+     ↓
+   /en/  ───────────────→  Show "中文" button
+     ↓                           ↓
+   Current URL            Replace /en/ → /zh/
+     ↓                           ↓
+/en/publications.html   Target: /zh/publications.html
+     ↓                           ↓
+User clicks "中文"       Navigate to /zh/publications.html
+                                 ↓
+                         Show "EN" button</code></pre>
 </section>
-<section id="quick-start" class="level2">
-<h2 class="anchored" data-anchor-id="quick-start">🚀 Quick Start</h2>
-<section id="prerequisites" class="level3">
-<h3 class="anchored" data-anchor-id="prerequisites">Prerequisites</h3>
-<ul>
-<li><a href="https://quarto.org/docs/get-started/">Quarto</a> 1.8 or higher</li>
-</ul>
+<section id="page-template" class="level2">
+<h2 class="anchored" data-anchor-id="page-template">Page Template</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">html</span><span class="ot"> lang</span><span class="op">=</span><span class="st">"zh|en"</span><span class="dt">&gt;</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">&lt;!-- Quarto meta tags, styles --&gt;</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">header</span><span class="dt">&gt;</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>        <span class="dt">&lt;</span><span class="kw">nav</span><span class="ot"> class</span><span class="op">=</span><span class="st">"navbar"</span><span class="dt">&gt;</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>            <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"index.html"</span><span class="dt">&gt;</span>主页|Home<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>            <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"publications.html"</span><span class="dt">&gt;</span>学术成果|Publications<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>            <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"about.html"</span><span class="dt">&gt;</span>关于|About<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>            <span class="co">&lt;!-- Language switcher added here by JavaScript --&gt;</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>            <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"../en/page.html"</span><span class="ot"> id</span><span class="op">=</span><span class="st">"language-switcher"</span><span class="dt">&gt;</span>EN<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>        <span class="dt">&lt;/</span><span class="kw">nav</span><span class="dt">&gt;</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;/</span><span class="kw">header</span><span class="dt">&gt;</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">main</span><span class="dt">&gt;</span></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>        <span class="co">&lt;!-- Page content --&gt;</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;/</span><span class="kw">main</span><span class="dt">&gt;</span></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">footer</span><span class="dt">&gt;</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>        <span class="co">&lt;!-- Footer content --&gt;</span></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;/</span><span class="kw">footer</span><span class="dt">&gt;</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    <span class="co">&lt;!-- Language switcher script --&gt;</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">script</span><span class="ot"> src</span><span class="op">=</span><span class="st">"../assets/lang-switch.js"</span><span class="dt">&gt;&lt;/</span><span class="kw">script</span><span class="dt">&gt;</span></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="building-the-site" class="level3">
-<h3 class="anchored" data-anchor-id="building-the-site">Building the Site</h3>
-<p><strong>Windows:</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">build.bat</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p><strong>Linux/Mac:</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x build.sh</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">./build.sh</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p><strong>Manual build:</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> zh <span class="kw">&amp;&amp;</span> <span class="ex">quarto</span> render <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> ..</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> en <span class="kw">&amp;&amp;</span> <span class="ex">quarto</span> render <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> ..</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">xcopy</span> /E /I /Y assets docs<span class="dt">\a</span>ssets</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ex">xcopy</span> /E /I /Y images docs<span class="dt">\i</span>mages</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">xcopy</span> /E /I /Y pdf docs<span class="dt">\p</span>df</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="configuration-cascade" class="level2">
+<h2 class="anchored" data-anchor-id="configuration-cascade">Configuration Cascade</h2>
+<pre><code>Global Config             Language Config           Output
+─────────────             ───────────────           ──────
+
+_quarto.yml               zh/_quarto.yml            docs/zh/
+(Shared settings)   +     (Chinese navbar,    →    - Chinese HTML
+- theme                   output-dir,               - Chinese nav labels
+- toc                     favicon,                  - lang="zh"
+- footer template         lang: zh)                 - Search in Chinese
+
+_quarto.yml               en/_quarto.yml            docs/en/
+(Shared settings)   +     (English navbar,    →    - English HTML
+- theme                   output-dir,               - English nav labels  
+- toc                     favicon,                  - lang="en"
+- footer template         lang: en)                 - Search in English</code></pre>
 </section>
-<section id="local-preview" class="level3">
-<h3 class="anchored" data-anchor-id="local-preview">Local Preview</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview Chinese version</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview docs/zh</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview English version</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview docs/en</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="user-experience-flow" class="level2">
+<h2 class="anchored" data-anchor-id="user-experience-flow">User Experience Flow</h2>
+<pre><code>First Visit:
+  User → https://JiajunDu-ReSustain.github.io/
+       → Auto-detect language (JavaScript)
+       → Redirect to /zh/ or /en/
+
+Navigation:
+  User on /zh/index.html
+       → Clicks "学术成果"
+       → Goes to /zh/publications.html
+       → Sees "EN" button in navbar
+
+Language Switch:
+  User on /zh/publications.html
+       → Clicks "EN" button
+       → JavaScript: /zh/publications.html → /en/publications.html
+       → Goes to /en/publications.html
+       → Now sees "中文" button in navbar
+
+Page Not Found Fallback:
+  User on /zh/special-page.html
+       → Clicks "EN" button
+       → JavaScript: /zh/special-page.html → /en/special-page.html
+       → Page doesn't exist
+       → Falls back to /en/index.html</code></pre>
 </section>
-</section>
-<section id="documentation" class="level2">
-<h2 class="anchored" data-anchor-id="documentation">📖 Documentation</h2>
-<ul>
-<li><strong><a href="./BUILD_GUIDE.html">BUILD_GUIDE.md</a></strong> - Detailed build instructions</li>
-<li><strong><a href="./GIT_WORKFLOW.html">GIT_WORKFLOW.md</a></strong> - Git workflow and deployment</li>
-<li><strong><a href="./IMPLEMENTATION_SUMMARY.html">IMPLEMENTATION_SUMMARY.md</a></strong> - Implementation details</li>
-</ul>
-</section>
-<section id="adding-new-content" class="level2">
-<h2 class="anchored" data-anchor-id="adding-new-content">🔧 Adding New Content</h2>
-<ol type="1">
-<li>Create <code>.qmd</code> files in both <code>zh/</code> and <code>en/</code> directories</li>
-<li>Add navigation entries to <code>zh/_quarto.yml</code> and <code>en/_quarto.yml</code></li>
-<li>Run the build script</li>
-<li>Commit and push</li>
-</ol>
-<p>The language switcher will automatically handle the new pages!</p>
-</section>
-<section id="license" class="level2">
-<h2 class="anchored" data-anchor-id="license">📝 License</h2>
-<p>See <a href="LICENSE">LICENSE</a> file for details.</p>
-</section>
-<section id="author" class="level2">
-<h2 class="anchored" data-anchor-id="author">👤 Author</h2>
-<p><strong>Jiajun Du</strong> - Email: jiajundu@tongji.edu.cn - GitHub: <a href="https://github.com/JiajunDu-ReSustain"><span class="citation" data-cites="JiajunDu-ReSustain">@JiajunDu-ReSustain</span></a> - Google Scholar: <a href="https://scholar.google.com/citations?user=R41lYV0AAAAJ&amp;hl">Profile</a></p>
-</section>
-<section id="acknowledgments" class="level2">
-<h2 class="anchored" data-anchor-id="acknowledgments">🙏 Acknowledgments</h2>
-<ul>
-<li>Built with <a href="https://quarto.org/">Quarto</a></li>
-<li>Hosted on <a href="https://pages.github.com/">GitHub Pages</a></li>
-<li>Inspired by modern academic websites</li>
-</ul>
+<section id="deployment-pipeline" class="level2">
+<h2 class="anchored" data-anchor-id="deployment-pipeline">Deployment Pipeline</h2>
+<pre><code>Local Development          Version Control         GitHub Pages
+─────────────────          ───────────────         ────────────
+
+1. Edit zh/*.qmd           3. git add .            5. GitHub receives push
+   Edit en/*.qmd              git commit -m "..."     ↓
+   ↓                          git push              6. Serves docs/ folder
+                              ↓                        ↓
+2. Run build.bat          4. Push to GitHub       7. Site live at:
+   ↓                          ↓                       https://...github.io/
+   Generates docs/zh/         Repository updated      ├─ /zh/
+   Generates docs/en/         ↓                       └─ /en/
+   Copies resources           Includes docs/</code></pre>
+<p>This architecture provides: - ✅ Complete separation of languages - ✅ Consistent URL structure - ✅ Seamless language switching - ✅ Static site (no server required) - ✅ Easy maintenance - ✅ Scalable to add more languages</p>
 
 
 </section>
@@ -671,7 +767,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/edit/main/readme.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/edit/main/ARCHITECTURE.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org/">Quarto</a><br></p>
 </div>

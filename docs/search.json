@@ -2,9 +2,9 @@
   {
     "objectID": "readme.html",
     "href": "readme.html",
-    "title": "Jiajun Du",
+    "title": "Jiajun Du’s Personal Academic Website",
     "section": "",
-    "text": "Jiajun’s personal page"
+    "text": "A bilingual (Chinese/English) academic website built with Quarto and hosted on GitHub Pages.\n\n\n\nEnglish: https://JiajunDu-ReSustain.github.io/en/\nChinese: https://JiajunDu-ReSustain.github.io/zh/\nAuto-detect: https://JiajunDu-ReSustain.github.io/\n\n\n\n\n\n🌍 Bilingual Support: Full Chinese and English versions\n🔄 Language Switcher: Automatic page-to-page language switching\n🎨 Modern UI: Clean, professional academic design\n📱 Responsive: Works on all devices\n🚀 Fast: Static HTML for optimal performance\n🔍 Searchable: Built-in search for each language\n📄 PDF Support: Direct access to publications\n\n\n\n\n\nStatic Site Generator: Quarto\nHosting: GitHub Pages\nLanguage Switcher: Vanilla JavaScript (no dependencies)\nStyling: Custom SCSS with Bootstrap\n\n\n\n\n.\n├── zh/                  # Chinese content\n├── en/                  # English content\n├── docs/                # Rendered output (served by GitHub Pages)\n│   ├── zh/             # Chinese HTML\n│   ├── en/             # English HTML\n│   └── index.html      # Root redirect\n├── assets/              # JavaScript files\n├── images/              # Images and icons\n├── pdf/                 # Publication PDFs\n└── build.bat/sh         # Build scripts\n\n\n\n\n\n\nQuarto 1.8 or higher\n\n\n\n\nWindows:\nbuild.bat\nLinux/Mac:\nchmod +x build.sh\n./build.sh\nManual build:\ncd zh && quarto render && cd ..\ncd en && quarto render && cd ..\nxcopy /E /I /Y assets docs\\assets\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\n\n\n\n# Preview Chinese version\nquarto preview docs/zh\n\n# Preview English version\nquarto preview docs/en\n\n\n\n\n\nBUILD_GUIDE.md - Detailed build instructions\nGIT_WORKFLOW.md - Git workflow and deployment\nIMPLEMENTATION_SUMMARY.md - Implementation details\n\n\n\n\n\nCreate .qmd files in both zh/ and en/ directories\nAdd navigation entries to zh/_quarto.yml and en/_quarto.yml\nRun the build script\nCommit and push\n\nThe language switcher will automatically handle the new pages!\n\n\n\nSee LICENSE file for details.\n\n\n\nJiajun Du - Email: jiajundu@tongji.edu.cn - GitHub: @JiajunDu-ReSustain - Google Scholar: Profile\n\n\n\n\nBuilt with Quarto\nHosted on GitHub Pages\nInspired by modern academic websites"
   },
   {
     "objectID": "index.html",
@@ -61,5 +61,432 @@
     "title": "Publications",
     "section": "科研项目",
     "text": "科研项目\n\n国家自然科学基金委员会，面上项目，52378182，基于自复位混合阻尼实现钢框架结构综合韧性提升的多性态地震响应机理与设计调控方法研究，2024.01-2027.12，参与\n上海市科技计划项目，22dz1201705，基于数值仿真的高性能模块化空间装配能效提升技术研究，2022.09-2025.08，参与\n国家重点研发计划，2022YFC3801904，全装配抗震高韧性钢框架结构体系与标准化关键技术，2022.11-2026.10，参与\n同济大学地震工程国际合作联合实验室中外合作项目，Resilience and sustainability-informed steel structure design assessment and optimization，参与"
+  },
+  {
+    "objectID": "readme.html#live-site",
+    "href": "readme.html#live-site",
+    "title": "Jiajun Du’s Personal Academic Website",
+    "section": "",
+    "text": "English: https://JiajunDu-ReSustain.github.io/en/\nChinese: https://JiajunDu-ReSustain.github.io/zh/\nAuto-detect: https://JiajunDu-ReSustain.github.io/"
+  },
+  {
+    "objectID": "readme.html#features",
+    "href": "readme.html#features",
+    "title": "Jiajun Du’s Personal Academic Website",
+    "section": "",
+    "text": "🌍 Bilingual Support: Full Chinese and English versions\n🔄 Language Switcher: Automatic page-to-page language switching\n🎨 Modern UI: Clean, professional academic design\n📱 Responsive: Works on all devices\n🚀 Fast: Static HTML for optimal performance\n🔍 Searchable: Built-in search for each language\n📄 PDF Support: Direct access to publications"
+  },
+  {
+    "objectID": "readme.html#technology-stack",
+    "href": "readme.html#technology-stack",
+    "title": "Jiajun Du’s Personal Academic Website",
+    "section": "",
+    "text": "Static Site Generator: Quarto\nHosting: GitHub Pages\nLanguage Switcher: Vanilla JavaScript (no dependencies)\nStyling: Custom SCSS with Bootstrap"
+  },
+  {
+    "objectID": "readme.html#project-structure",
+    "href": "readme.html#project-structure",
+    "title": "Jiajun Du’s Personal Academic Website",
+    "section": "",
+    "text": ".\n├── zh/                  # Chinese content\n├── en/                  # English content\n├── docs/                # Rendered output (served by GitHub Pages)\n│   ├── zh/             # Chinese HTML\n│   ├── en/             # English HTML\n│   └── index.html      # Root redirect\n├── assets/              # JavaScript files\n├── images/              # Images and icons\n├── pdf/                 # Publication PDFs\n└── build.bat/sh         # Build scripts"
+  },
+  {
+    "objectID": "readme.html#quick-start",
+    "href": "readme.html#quick-start",
+    "title": "Jiajun Du’s Personal Academic Website",
+    "section": "",
+    "text": "Quarto 1.8 or higher\n\n\n\n\nWindows:\nbuild.bat\nLinux/Mac:\nchmod +x build.sh\n./build.sh\nManual build:\ncd zh && quarto render && cd ..\ncd en && quarto render && cd ..\nxcopy /E /I /Y assets docs\\assets\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\n\n\n\n# Preview Chinese version\nquarto preview docs/zh\n\n# Preview English version\nquarto preview docs/en"
+  },
+  {
+    "objectID": "readme.html#documentation",
+    "href": "readme.html#documentation",
+    "title": "Jiajun Du’s Personal Academic Website",
+    "section": "",
+    "text": "BUILD_GUIDE.md - Detailed build instructions\nGIT_WORKFLOW.md - Git workflow and deployment\nIMPLEMENTATION_SUMMARY.md - Implementation details"
+  },
+  {
+    "objectID": "readme.html#adding-new-content",
+    "href": "readme.html#adding-new-content",
+    "title": "Jiajun Du’s Personal Academic Website",
+    "section": "",
+    "text": "Create .qmd files in both zh/ and en/ directories\nAdd navigation entries to zh/_quarto.yml and en/_quarto.yml\nRun the build script\nCommit and push\n\nThe language switcher will automatically handle the new pages!"
+  },
+  {
+    "objectID": "readme.html#license",
+    "href": "readme.html#license",
+    "title": "Jiajun Du’s Personal Academic Website",
+    "section": "",
+    "text": "See LICENSE file for details."
+  },
+  {
+    "objectID": "readme.html#author",
+    "href": "readme.html#author",
+    "title": "Jiajun Du’s Personal Academic Website",
+    "section": "",
+    "text": "Jiajun Du - Email: jiajundu@tongji.edu.cn - GitHub: @JiajunDu-ReSustain - Google Scholar: Profile"
+  },
+  {
+    "objectID": "readme.html#acknowledgments",
+    "href": "readme.html#acknowledgments",
+    "title": "Jiajun Du’s Personal Academic Website",
+    "section": "",
+    "text": "Built with Quarto\nHosted on GitHub Pages\nInspired by modern academic websites"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html",
+    "href": "IMPLEMENTATION_SUMMARY.html",
+    "title": "Bilingual Quarto Website Implementation Summary",
+    "section": "",
+    "text": ".\n├── zh/                      # Chinese source files\n│   ├── _quarto.yml         # Chinese-specific config\n│   ├── index.qmd\n│   ├── about.qmd\n│   └── publications.qmd\n├── en/                      # English source files\n│   ├── _quarto.yml         # English-specific config\n│   ├── index.qmd\n│   ├── about.qmd\n│   └── publications.qmd\n├── assets/\n│   └── lang-switch.js      # Language switcher JavaScript\n├── docs/\n│   ├── index.html          # Root redirect page\n│   ├── zh/                 # Chinese rendered output\n│   ├── en/                 # English rendered output\n│   ├── assets/             # Copied from root\n│   ├── images/             # Copied from root\n│   └── pdf/                # Copied from root\n├── _quarto.yml             # Shared global config (deprecated for profiles)\n├── _quarto-zh.yml          # Chinese profile config\n├── _quarto-en.yml          # English profile config\n├── build.bat               # Windows build script\n├── build.sh                # Linux/Mac build script\n└── BUILD_GUIDE.md          # Build documentation\n\n\n\n\n\n\nContains shared theme and formatting settings\nNot actively used with the directory-based build approach\n\n\n\n\n\nOutput directory: ../docs/zh\nLanguage: zh (Chinese)\nChinese navbar labels\nIncludes language switcher script\n\n\n\n\n\nOutput directory: ../docs/en\nLanguage: en (English)\nEnglish navbar labels\nIncludes language switcher script\n\n\n\n\n\nFile: assets/lang-switch.js\nFeatures: - Automatically detects current language from URL path - Shows “EN” button on Chinese pages - Shows “中文” button on English pages - Maps corresponding pages: - /zh/about.html ↔︎ /en/about.html - /zh/publications.html ↔︎ /en/publications.html - Falls back to target language homepage if page doesn’t exist - Works with GitHub Pages subdirectory structure\nHow it works: 1. Runs on page load 2. Detects if URL contains /zh/ or /en/ 3. Generates the corresponding URL in the other language 4. Adds/updates a navbar link with appropriate label 5. Positions the link in the top-right of the navbar\n\n\n\nManual Build:\n# Build Chinese version\ncd zh\nquarto render\ncd ..\n\n# Build English version\ncd en\nquarto render\ncd ..\n\n# Copy resources\nxcopy /E /I /Y assets docs\\assets\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\nAutomated Build (use provided scripts):\n# Windows\nbuild.bat\n\n# Linux/Mac\nchmod +x build.sh\n./build.sh\n\n\n\nAll content files have been created with bilingual equivalents:\nChinese (zh/): - index.qmd - Homepage with bio, education, awards - about.qmd - About page - publications.qmd - Publications and research projects\nEnglish (en/): - index.qmd - Homepage with bio, education, awards - about.qmd - About page - publications.qmd - Publications and research projects\n\n\n\nFile: docs/index.html\nFeatures: - Auto-detects browser language - Redirects Chinese users to /zh/ - Redirects others to /en/ - Provides manual links for both languages - Clean, professional fallback UI\n\n\n\n\n\n\n\nBuild the site:\nbuild.bat          # Windows\n./build.sh         # Linux/Mac\nCommit all files:\ngit add .\ngit commit -m \"Implement bilingual website with language switcher\"\ngit push\nConfigure GitHub Pages:\n\nGo to repository Settings &gt; Pages\nSet source to: main branch, /docs folder\nSave\n\nAccess the site:\n\nRoot: https://JiajunDu-ReSustain.github.io/\nChinese: https://JiajunDu-ReSustain.github.io/zh/\nEnglish: https://JiajunDu-ReSustain.github.io/en/\n\n\n\n\n\n\n\n\n\nCreate .qmd file in both zh/ and en/ with the same filename\nAdd navigation entry to both zh/_quarto.yml and en/_quarto.yml\nRebuild the site\nLanguage switcher will automatically handle the new page\n\n\n\n\n\nEdit the .qmd files in zh/ or en/\nRebuild the affected language version\nCommit and push changes\n\n\n\n\n\nEdit styles.scss in the root directory\nRebuild both language versions\nChanges apply to both languages\n\n\n\n\n\n\n✅ Fully static (no server-side logic required)\n✅ GitHub Pages compatible\n✅ Automatic language detection on root page\n✅ Language switcher on every page\n✅ Maintains URL structure when switching languages\n✅ Graceful fallback if page doesn’t exist\n✅ Clean, professional UI\n✅ SEO-friendly with proper lang attributes\n✅ Fast loading (static HTML)\n✅ Easy to maintain and extend\n\n\n\n\n\nThe language switcher uses vanilla JavaScript (no dependencies)\nResources (images, PDFs, assets) are shared between languages\nEach language has its own search index\nThe navbar is customized per language\nAll paths are relative and work locally and on GitHub Pages\n\n\n\n\nLanguage switcher not working? - Ensure docs/assets/lang-switch.js exists - Check browser console for errors - Verify script is included in HTML (should be at end of body)\nImages not loading? - Run resource copy commands after building - Verify docs/images/ and docs/pdf/ exist\nBuild fails? - Check Quarto version: quarto --version (should be 1.8+) - Ensure you’re in the correct directory when running render - Check for YAML syntax errors in _quarto.yml files\nWrong language on GitHub Pages? - Check docs/index.html exists and has redirect logic - Clear browser cache - Verify GitHub Pages is serving from docs/ folder\n\n\n\nThe bilingual website is now fully implemented and ready for deployment!"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#completed-tasks",
+    "href": "IMPLEMENTATION_SUMMARY.html#completed-tasks",
+    "title": "Bilingual Quarto Website Implementation Summary",
+    "section": "",
+    "text": ".\n├── zh/                      # Chinese source files\n│   ├── _quarto.yml         # Chinese-specific config\n│   ├── index.qmd\n│   ├── about.qmd\n│   └── publications.qmd\n├── en/                      # English source files\n│   ├── _quarto.yml         # English-specific config\n│   ├── index.qmd\n│   ├── about.qmd\n│   └── publications.qmd\n├── assets/\n│   └── lang-switch.js      # Language switcher JavaScript\n├── docs/\n│   ├── index.html          # Root redirect page\n│   ├── zh/                 # Chinese rendered output\n│   ├── en/                 # English rendered output\n│   ├── assets/             # Copied from root\n│   ├── images/             # Copied from root\n│   └── pdf/                # Copied from root\n├── _quarto.yml             # Shared global config (deprecated for profiles)\n├── _quarto-zh.yml          # Chinese profile config\n├── _quarto-en.yml          # English profile config\n├── build.bat               # Windows build script\n├── build.sh                # Linux/Mac build script\n└── BUILD_GUIDE.md          # Build documentation\n\n\n\n\n\n\nContains shared theme and formatting settings\nNot actively used with the directory-based build approach\n\n\n\n\n\nOutput directory: ../docs/zh\nLanguage: zh (Chinese)\nChinese navbar labels\nIncludes language switcher script\n\n\n\n\n\nOutput directory: ../docs/en\nLanguage: en (English)\nEnglish navbar labels\nIncludes language switcher script\n\n\n\n\n\nFile: assets/lang-switch.js\nFeatures: - Automatically detects current language from URL path - Shows “EN” button on Chinese pages - Shows “中文” button on English pages - Maps corresponding pages: - /zh/about.html ↔︎ /en/about.html - /zh/publications.html ↔︎ /en/publications.html - Falls back to target language homepage if page doesn’t exist - Works with GitHub Pages subdirectory structure\nHow it works: 1. Runs on page load 2. Detects if URL contains /zh/ or /en/ 3. Generates the corresponding URL in the other language 4. Adds/updates a navbar link with appropriate label 5. Positions the link in the top-right of the navbar\n\n\n\nManual Build:\n# Build Chinese version\ncd zh\nquarto render\ncd ..\n\n# Build English version\ncd en\nquarto render\ncd ..\n\n# Copy resources\nxcopy /E /I /Y assets docs\\assets\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\nAutomated Build (use provided scripts):\n# Windows\nbuild.bat\n\n# Linux/Mac\nchmod +x build.sh\n./build.sh\n\n\n\nAll content files have been created with bilingual equivalents:\nChinese (zh/): - index.qmd - Homepage with bio, education, awards - about.qmd - About page - publications.qmd - Publications and research projects\nEnglish (en/): - index.qmd - Homepage with bio, education, awards - about.qmd - About page - publications.qmd - Publications and research projects\n\n\n\nFile: docs/index.html\nFeatures: - Auto-detects browser language - Redirects Chinese users to /zh/ - Redirects others to /en/ - Provides manual links for both languages - Clean, professional fallback UI"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#deployment-instructions",
+    "href": "IMPLEMENTATION_SUMMARY.html#deployment-instructions",
+    "title": "Bilingual Quarto Website Implementation Summary",
+    "section": "",
+    "text": "Build the site:\nbuild.bat          # Windows\n./build.sh         # Linux/Mac\nCommit all files:\ngit add .\ngit commit -m \"Implement bilingual website with language switcher\"\ngit push\nConfigure GitHub Pages:\n\nGo to repository Settings &gt; Pages\nSet source to: main branch, /docs folder\nSave\n\nAccess the site:\n\nRoot: https://JiajunDu-ReSustain.github.io/\nChinese: https://JiajunDu-ReSustain.github.io/zh/\nEnglish: https://JiajunDu-ReSustain.github.io/en/"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#maintenance",
+    "href": "IMPLEMENTATION_SUMMARY.html#maintenance",
+    "title": "Bilingual Quarto Website Implementation Summary",
+    "section": "",
+    "text": "Create .qmd file in both zh/ and en/ with the same filename\nAdd navigation entry to both zh/_quarto.yml and en/_quarto.yml\nRebuild the site\nLanguage switcher will automatically handle the new page\n\n\n\n\n\nEdit the .qmd files in zh/ or en/\nRebuild the affected language version\nCommit and push changes\n\n\n\n\n\nEdit styles.scss in the root directory\nRebuild both language versions\nChanges apply to both languages"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#features",
+    "href": "IMPLEMENTATION_SUMMARY.html#features",
+    "title": "Bilingual Quarto Website Implementation Summary",
+    "section": "",
+    "text": "✅ Fully static (no server-side logic required)\n✅ GitHub Pages compatible\n✅ Automatic language detection on root page\n✅ Language switcher on every page\n✅ Maintains URL structure when switching languages\n✅ Graceful fallback if page doesn’t exist\n✅ Clean, professional UI\n✅ SEO-friendly with proper lang attributes\n✅ Fast loading (static HTML)\n✅ Easy to maintain and extend"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#notes",
+    "href": "IMPLEMENTATION_SUMMARY.html#notes",
+    "title": "Bilingual Quarto Website Implementation Summary",
+    "section": "",
+    "text": "The language switcher uses vanilla JavaScript (no dependencies)\nResources (images, PDFs, assets) are shared between languages\nEach language has its own search index\nThe navbar is customized per language\nAll paths are relative and work locally and on GitHub Pages"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#troubleshooting",
+    "href": "IMPLEMENTATION_SUMMARY.html#troubleshooting",
+    "title": "Bilingual Quarto Website Implementation Summary",
+    "section": "",
+    "text": "Language switcher not working? - Ensure docs/assets/lang-switch.js exists - Check browser console for errors - Verify script is included in HTML (should be at end of body)\nImages not loading? - Run resource copy commands after building - Verify docs/images/ and docs/pdf/ exist\nBuild fails? - Check Quarto version: quarto --version (should be 1.8+) - Ensure you’re in the correct directory when running render - Check for YAML syntax errors in _quarto.yml files\nWrong language on GitHub Pages? - Check docs/index.html exists and has redirect logic - Clear browser cache - Verify GitHub Pages is serving from docs/ folder"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#success",
+    "href": "IMPLEMENTATION_SUMMARY.html#success",
+    "title": "Bilingual Quarto Website Implementation Summary",
+    "section": "",
+    "text": "The bilingual website is now fully implemented and ready for deployment!"
+  },
+  {
+    "objectID": "CLAUDE.html",
+    "href": "CLAUDE.html",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nA bilingual (Chinese/English) personal academic website for Jiajun Du, built with Quarto and hosted on GitHub Pages.\n\nLive URLs: Root (auto-detect), /zh/ (Chinese), /en/ (English)\nSite generator: Quarto (static site, renders .qmd → .html)\nNo Node.js / npm / package.json — only Quarto and shell commands\n\n\n\n\n# Build both languages and copy resources (recommended):\n./build.sh          # Linux/Mac (Git Bash on Windows)\nbuild.bat           # Windows CMD\n\n# Build a single language:\ncd zh && quarto render   # Chinese → docs/zh/\ncd en && quarto render   # English → docs/en/\n\n# Local preview:\nquarto preview docs/zh   # Preview Chinese\nquarto preview docs/en   # Preview English\nAfter building, resources (assets/, images/, pdf/) are copied into docs/ by the build scripts.\n\n\n\n\n\n\n\n\nSource (edit these)\nOutput (generated)\n\n\n\n\nzh/*.qmd, zh/_quarto.yml\ndocs/zh/*.html\n\n\nen/*.qmd, en/_quarto.yml\ndocs/en/*.html\n\n\nassets/lang-switch.js\ndocs/assets/lang-switch.js (copied)\n\n\nimages/, pdf/\ndocs/images/, docs/pdf/ (copied)\n\n\nstyles.scss\n(used by Quarto at render time)\n\n\n\n\n\n\n\n_quarto.yml — shared settings (theme, TOC, footer template, output-dir: docs)\nzh/_quarto.yml — Chinese-specific (lang: zh, Chinese navbar labels, output-dir: ../docs/zh)\nen/_quarto.yml — English-specific (lang: en, English navbar labels, output-dir: ../docs/en)\n\nEach language subdirectory is rendered as an independent Quarto project. The root _quarto.yml is NOT used when rendering from within zh/ or en/.\n\n\n\nassets/lang-switch.js runs in the browser and swaps /zh/ ↔︎ /en/ in the current URL path. It injects a language toggle button into the navbar. If the target page doesn’t exist in the other language, it falls back to that language’s index page.\n\n\n\ndocs/index.html detects the browser language and redirects to /zh/ or /en/.\n\n\n\n\n\nCreate the .qmd file in both zh/ and en/ directories (content can differ per language)\nAdd navigation entries to the corresponding zh/_quarto.yml and en/_quarto.yml under website.navbar.right\nRun build.sh or build.bat\nCommit and push (the docs/ directory is served by GitHub Pages)\n\n\n\n\n\nThe docs/ directory is committed to the repo (not gitignored) — GitHub Pages serves from docs/ on the main branch\n.gitignore excludes .quarto/, .Rproj.user, .Rhistory, .RData, .Ruserdata, .DS_Store, and *.quarto_ipynb\nWorkflow: edit source → build → commit everything → push\n\n\n\n\n\nRoot-level index.qmd and publications.qmd are legacy files; active content lives in zh/ and en/ subdirectories\nThe .nojekyll file (root and docs/) disables Jekyll processing on GitHub Pages\nStyles are defined in styles.scss at the repo root; referenced via relative path from each language config"
+  },
+  {
+    "objectID": "CLAUDE.html#project-overview",
+    "href": "CLAUDE.html#project-overview",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "A bilingual (Chinese/English) personal academic website for Jiajun Du, built with Quarto and hosted on GitHub Pages.\n\nLive URLs: Root (auto-detect), /zh/ (Chinese), /en/ (English)\nSite generator: Quarto (static site, renders .qmd → .html)\nNo Node.js / npm / package.json — only Quarto and shell commands"
+  },
+  {
+    "objectID": "CLAUDE.html#key-commands",
+    "href": "CLAUDE.html#key-commands",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "# Build both languages and copy resources (recommended):\n./build.sh          # Linux/Mac (Git Bash on Windows)\nbuild.bat           # Windows CMD\n\n# Build a single language:\ncd zh && quarto render   # Chinese → docs/zh/\ncd en && quarto render   # English → docs/en/\n\n# Local preview:\nquarto preview docs/zh   # Preview Chinese\nquarto preview docs/en   # Preview English\nAfter building, resources (assets/, images/, pdf/) are copied into docs/ by the build scripts."
+  },
+  {
+    "objectID": "CLAUDE.html#architecture",
+    "href": "CLAUDE.html#architecture",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Source (edit these)\nOutput (generated)\n\n\n\n\nzh/*.qmd, zh/_quarto.yml\ndocs/zh/*.html\n\n\nen/*.qmd, en/_quarto.yml\ndocs/en/*.html\n\n\nassets/lang-switch.js\ndocs/assets/lang-switch.js (copied)\n\n\nimages/, pdf/\ndocs/images/, docs/pdf/ (copied)\n\n\nstyles.scss\n(used by Quarto at render time)\n\n\n\n\n\n\n\n_quarto.yml — shared settings (theme, TOC, footer template, output-dir: docs)\nzh/_quarto.yml — Chinese-specific (lang: zh, Chinese navbar labels, output-dir: ../docs/zh)\nen/_quarto.yml — English-specific (lang: en, English navbar labels, output-dir: ../docs/en)\n\nEach language subdirectory is rendered as an independent Quarto project. The root _quarto.yml is NOT used when rendering from within zh/ or en/.\n\n\n\nassets/lang-switch.js runs in the browser and swaps /zh/ ↔︎ /en/ in the current URL path. It injects a language toggle button into the navbar. If the target page doesn’t exist in the other language, it falls back to that language’s index page.\n\n\n\ndocs/index.html detects the browser language and redirects to /zh/ or /en/."
+  },
+  {
+    "objectID": "CLAUDE.html#adding-new-pages",
+    "href": "CLAUDE.html#adding-new-pages",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Create the .qmd file in both zh/ and en/ directories (content can differ per language)\nAdd navigation entries to the corresponding zh/_quarto.yml and en/_quarto.yml under website.navbar.right\nRun build.sh or build.bat\nCommit and push (the docs/ directory is served by GitHub Pages)"
+  },
+  {
+    "objectID": "CLAUDE.html#git-deployment",
+    "href": "CLAUDE.html#git-deployment",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "The docs/ directory is committed to the repo (not gitignored) — GitHub Pages serves from docs/ on the main branch\n.gitignore excludes .quarto/, .Rproj.user, .Rhistory, .RData, .Ruserdata, .DS_Store, and *.quarto_ipynb\nWorkflow: edit source → build → commit everything → push"
+  },
+  {
+    "objectID": "CLAUDE.html#notes",
+    "href": "CLAUDE.html#notes",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Root-level index.qmd and publications.qmd are legacy files; active content lives in zh/ and en/ subdirectories\nThe .nojekyll file (root and docs/) disables Jekyll processing on GitHub Pages\nStyles are defined in styles.scss at the repo root; referenced via relative path from each language config"
+  },
+  {
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "UI 调整历史记录",
+    "section": "",
+    "text": "文件: styles.scss, zh/_quarto.yml, en/_quarto.yml\n修改: 导航栏背景从深绿色 #355E3B 改为墨水蓝 #1B3A5C\n原因: 提升学术感，更稳重\n\n\n\n\n\n文件: styles.scss\n修改: 导航栏文字（标题、链接）从灰色改为白色 #ffffff\n新增: SCSS变量 $navbar-fg（文字色）和 $navbar-hl（活跃色）\n活跃色: 金珀色 #E8B84B，用于当前页高亮和悬停效果\n\n\n\n\n\n文件: styles.scss\n修改: 主页英雄区域从左右对称改为左侧照片 30% / 右侧内容 70%\n原因: 简介内容较多，右侧需要更多空间，视觉更平衡\n\n\n\n\n\n文件: en/publications.qmd, zh/publications.qmd\n新增: Du, J. et al. (2026), Structures, 放在”高性能结构体系”部分首位\nPDF: pdf/Str2026-Seismic-response-of-a-prefabricated-substation.pdf\n\n\n\n\n\n文件: styles.scss\n修改: 页面整体最大宽度从默认的 ~900px 扩大到 1400px，减少两侧留白\n原因: 内容较多时两侧留白过大，加宽后内容展示更充分"
+  },
+  {
+    "objectID": "CHANGELOG.html#section",
+    "href": "CHANGELOG.html#section",
+    "title": "UI 调整历史记录",
+    "section": "",
+    "text": "文件: styles.scss, zh/_quarto.yml, en/_quarto.yml\n修改: 导航栏背景从深绿色 #355E3B 改为墨水蓝 #1B3A5C\n原因: 提升学术感，更稳重\n\n\n\n\n\n文件: styles.scss\n修改: 导航栏文字（标题、链接）从灰色改为白色 #ffffff\n新增: SCSS变量 $navbar-fg（文字色）和 $navbar-hl（活跃色）\n活跃色: 金珀色 #E8B84B，用于当前页高亮和悬停效果\n\n\n\n\n\n文件: styles.scss\n修改: 主页英雄区域从左右对称改为左侧照片 30% / 右侧内容 70%\n原因: 简介内容较多，右侧需要更多空间，视觉更平衡\n\n\n\n\n\n文件: en/publications.qmd, zh/publications.qmd\n新增: Du, J. et al. (2026), Structures, 放在”高性能结构体系”部分首位\nPDF: pdf/Str2026-Seismic-response-of-a-prefabricated-substation.pdf\n\n\n\n\n\n文件: styles.scss\n修改: 页面整体最大宽度从默认的 ~900px 扩大到 1400px，减少两侧留白\n原因: 内容较多时两侧留白过大，加宽后内容展示更充分"
+  },
+  {
+    "objectID": "ARCHITECTURE.html",
+    "href": "ARCHITECTURE.html",
+    "title": "Bilingual Website Architecture",
+    "section": "",
+    "text": "JiajunDu-ReSustain.github.io/\n│\n├── Source Files (Edit these)\n│   ├── zh/                          # Chinese source\n│   │   ├── _quarto.yml              # Chinese config\n│   │   ├── index.qmd                # Homepage\n│   │   ├── about.qmd                # About page\n│   │   └── publications.qmd         # Publications\n│   │\n│   ├── en/                          # English source\n│   │   ├── _quarto.yml              # English config\n│   │   ├── index.qmd                # Homepage\n│   │   ├── about.qmd                # About page\n│   │   └── publications.qmd         # Publications\n│   │\n│   ├── assets/\n│   │   └── lang-switch.js           # Language switcher\n│   ├── images/                      # Images\n│   ├── pdf/                         # PDFs\n│   └── styles.scss                  # Styles\n│\n├── Output Files (Generated, served by GitHub Pages)\n│   └── docs/\n│       ├── index.html               # Root redirect\n│       ├── assets/                  # (copied)\n│       ├── images/                  # (copied)\n│       ├── pdf/                     # (copied)\n│       │\n│       ├── zh/                      # Chinese output\n│       │   ├── index.html\n│       │   ├── about.html\n│       │   ├── publications.html\n│       │   └── site_libs/\n│       │\n│       └── en/                      # English output\n│           ├── index.html\n│           ├── about.html\n│           ├── publications.html\n│           └── site_libs/\n│\n└── Build & Documentation\n    ├── build.bat                    # Windows build\n    ├── build.sh                     # Linux/Mac build\n    ├── BUILD_GUIDE.md\n    ├── GIT_WORKFLOW.md\n    ├── IMPLEMENTATION_SUMMARY.md\n    ├── QUICK_REFERENCE.md\n    ├── CHECKLIST.md\n    └── readme.md\n\n\n\nSource Files                Build Process              Output\n────────────                ─────────────              ──────\n\nzh/*.qmd     ─┐            \n             ├─→  cd zh && quarto render  ─→  docs/zh/*.html\nzh/_quarto.yml┘                                  \n\nen/*.qmd     ─┐            \n             ├─→  cd en && quarto render  ─→  docs/en/*.html\nen/_quarto.yml┘                                  \n\nassets/      ─┐\nimages/      ├─→  Copy resources         ─→  docs/assets/\npdf/         ┘                                docs/images/\n                                              docs/pdf/\n\n\n\nGitHub Pages URL Structure:\n\nhttps://JiajunDu-ReSustain.github.io/\n│\n├─ /                      → docs/index.html (auto-detect & redirect)\n│                            ├─ Browser lang = zh → /zh/\n│                            └─ Browser lang = en → /en/\n│\n├─ /zh/                   → docs/zh/ (Chinese site)\n│  ├─ /zh/index.html      → Homepage\n│  ├─ /zh/about.html      → About\n│  └─ /zh/publications.html → Publications\n│\n└─ /en/                   → docs/en/ (English site)\n   ├─ /en/index.html      → Homepage\n   ├─ /en/about.html      → About\n   └─ /en/publications.html → Publications\n\n\n\nUser visits page\n     ↓\nJavaScript detects URL path\n     ↓\n   /zh/  ───────────────→  Show \"EN\" button\n     ↓                           ↓\n   Current URL            Replace /zh/ → /en/\n     ↓                           ↓\n/zh/about.html          Target: /en/about.html\n     ↓                           ↓\nUser clicks \"EN\"         Navigate to /en/about.html\n                                 ↓\n                         Show \"中文\" button\n\n\nUser visits page\n     ↓\nJavaScript detects URL path\n     ↓\n   /en/  ───────────────→  Show \"中文\" button\n     ↓                           ↓\n   Current URL            Replace /en/ → /zh/\n     ↓                           ↓\n/en/publications.html   Target: /zh/publications.html\n     ↓                           ↓\nUser clicks \"中文\"       Navigate to /zh/publications.html\n                                 ↓\n                         Show \"EN\" button\n\n\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"zh|en\"&gt;\n&lt;head&gt;\n    &lt;!-- Quarto meta tags, styles --&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;header&gt;\n        &lt;nav class=\"navbar\"&gt;\n            &lt;a href=\"index.html\"&gt;主页|Home&lt;/a&gt;\n            &lt;a href=\"publications.html\"&gt;学术成果|Publications&lt;/a&gt;\n            &lt;a href=\"about.html\"&gt;关于|About&lt;/a&gt;\n            \n            &lt;!-- Language switcher added here by JavaScript --&gt;\n            &lt;a href=\"../en/page.html\" id=\"language-switcher\"&gt;EN&lt;/a&gt;\n        &lt;/nav&gt;\n    &lt;/header&gt;\n    \n    &lt;main&gt;\n        &lt;!-- Page content --&gt;\n    &lt;/main&gt;\n    \n    &lt;footer&gt;\n        &lt;!-- Footer content --&gt;\n    &lt;/footer&gt;\n    \n    &lt;!-- Language switcher script --&gt;\n    &lt;script src=\"../assets/lang-switch.js\"&gt;&lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n\n\n\nGlobal Config             Language Config           Output\n─────────────             ───────────────           ──────\n\n_quarto.yml               zh/_quarto.yml            docs/zh/\n(Shared settings)   +     (Chinese navbar,    →    - Chinese HTML\n- theme                   output-dir,               - Chinese nav labels\n- toc                     favicon,                  - lang=\"zh\"\n- footer template         lang: zh)                 - Search in Chinese\n\n_quarto.yml               en/_quarto.yml            docs/en/\n(Shared settings)   +     (English navbar,    →    - English HTML\n- theme                   output-dir,               - English nav labels  \n- toc                     favicon,                  - lang=\"en\"\n- footer template         lang: en)                 - Search in English\n\n\n\nFirst Visit:\n  User → https://JiajunDu-ReSustain.github.io/\n       → Auto-detect language (JavaScript)\n       → Redirect to /zh/ or /en/\n\nNavigation:\n  User on /zh/index.html\n       → Clicks \"学术成果\"\n       → Goes to /zh/publications.html\n       → Sees \"EN\" button in navbar\n\nLanguage Switch:\n  User on /zh/publications.html\n       → Clicks \"EN\" button\n       → JavaScript: /zh/publications.html → /en/publications.html\n       → Goes to /en/publications.html\n       → Now sees \"中文\" button in navbar\n\nPage Not Found Fallback:\n  User on /zh/special-page.html\n       → Clicks \"EN\" button\n       → JavaScript: /zh/special-page.html → /en/special-page.html\n       → Page doesn't exist\n       → Falls back to /en/index.html\n\n\n\nLocal Development          Version Control         GitHub Pages\n─────────────────          ───────────────         ────────────\n\n1. Edit zh/*.qmd           3. git add .            5. GitHub receives push\n   Edit en/*.qmd              git commit -m \"...\"     ↓\n   ↓                          git push              6. Serves docs/ folder\n                              ↓                        ↓\n2. Run build.bat          4. Push to GitHub       7. Site live at:\n   ↓                          ↓                       https://...github.io/\n   Generates docs/zh/         Repository updated      ├─ /zh/\n   Generates docs/en/         ↓                       └─ /en/\n   Copies resources           Includes docs/\nThis architecture provides: - ✅ Complete separation of languages - ✅ Consistent URL structure - ✅ Seamless language switching - ✅ Static site (no server required) - ✅ Easy maintenance - ✅ Scalable to add more languages"
+  },
+  {
+    "objectID": "ARCHITECTURE.html#directory-structure",
+    "href": "ARCHITECTURE.html#directory-structure",
+    "title": "Bilingual Website Architecture",
+    "section": "",
+    "text": "JiajunDu-ReSustain.github.io/\n│\n├── Source Files (Edit these)\n│   ├── zh/                          # Chinese source\n│   │   ├── _quarto.yml              # Chinese config\n│   │   ├── index.qmd                # Homepage\n│   │   ├── about.qmd                # About page\n│   │   └── publications.qmd         # Publications\n│   │\n│   ├── en/                          # English source\n│   │   ├── _quarto.yml              # English config\n│   │   ├── index.qmd                # Homepage\n│   │   ├── about.qmd                # About page\n│   │   └── publications.qmd         # Publications\n│   │\n│   ├── assets/\n│   │   └── lang-switch.js           # Language switcher\n│   ├── images/                      # Images\n│   ├── pdf/                         # PDFs\n│   └── styles.scss                  # Styles\n│\n├── Output Files (Generated, served by GitHub Pages)\n│   └── docs/\n│       ├── index.html               # Root redirect\n│       ├── assets/                  # (copied)\n│       ├── images/                  # (copied)\n│       ├── pdf/                     # (copied)\n│       │\n│       ├── zh/                      # Chinese output\n│       │   ├── index.html\n│       │   ├── about.html\n│       │   ├── publications.html\n│       │   └── site_libs/\n│       │\n│       └── en/                      # English output\n│           ├── index.html\n│           ├── about.html\n│           ├── publications.html\n│           └── site_libs/\n│\n└── Build & Documentation\n    ├── build.bat                    # Windows build\n    ├── build.sh                     # Linux/Mac build\n    ├── BUILD_GUIDE.md\n    ├── GIT_WORKFLOW.md\n    ├── IMPLEMENTATION_SUMMARY.md\n    ├── QUICK_REFERENCE.md\n    ├── CHECKLIST.md\n    └── readme.md"
+  },
+  {
+    "objectID": "ARCHITECTURE.html#build-flow",
+    "href": "ARCHITECTURE.html#build-flow",
+    "title": "Bilingual Website Architecture",
+    "section": "",
+    "text": "Source Files                Build Process              Output\n────────────                ─────────────              ──────\n\nzh/*.qmd     ─┐            \n             ├─→  cd zh && quarto render  ─→  docs/zh/*.html\nzh/_quarto.yml┘                                  \n\nen/*.qmd     ─┐            \n             ├─→  cd en && quarto render  ─→  docs/en/*.html\nen/_quarto.yml┘                                  \n\nassets/      ─┐\nimages/      ├─→  Copy resources         ─→  docs/assets/\npdf/         ┘                                docs/images/\n                                              docs/pdf/"
+  },
+  {
+    "objectID": "ARCHITECTURE.html#url-routing",
+    "href": "ARCHITECTURE.html#url-routing",
+    "title": "Bilingual Website Architecture",
+    "section": "",
+    "text": "GitHub Pages URL Structure:\n\nhttps://JiajunDu-ReSustain.github.io/\n│\n├─ /                      → docs/index.html (auto-detect & redirect)\n│                            ├─ Browser lang = zh → /zh/\n│                            └─ Browser lang = en → /en/\n│\n├─ /zh/                   → docs/zh/ (Chinese site)\n│  ├─ /zh/index.html      → Homepage\n│  ├─ /zh/about.html      → About\n│  └─ /zh/publications.html → Publications\n│\n└─ /en/                   → docs/en/ (English site)\n   ├─ /en/index.html      → Homepage\n   ├─ /en/about.html      → About\n   └─ /en/publications.html → Publications"
+  },
+  {
+    "objectID": "ARCHITECTURE.html#language-switcher-logic",
+    "href": "ARCHITECTURE.html#language-switcher-logic",
+    "title": "Bilingual Website Architecture",
+    "section": "",
+    "text": "User visits page\n     ↓\nJavaScript detects URL path\n     ↓\n   /zh/  ───────────────→  Show \"EN\" button\n     ↓                           ↓\n   Current URL            Replace /zh/ → /en/\n     ↓                           ↓\n/zh/about.html          Target: /en/about.html\n     ↓                           ↓\nUser clicks \"EN\"         Navigate to /en/about.html\n                                 ↓\n                         Show \"中文\" button\n\n\nUser visits page\n     ↓\nJavaScript detects URL path\n     ↓\n   /en/  ───────────────→  Show \"中文\" button\n     ↓                           ↓\n   Current URL            Replace /en/ → /zh/\n     ↓                           ↓\n/en/publications.html   Target: /zh/publications.html\n     ↓                           ↓\nUser clicks \"中文\"       Navigate to /zh/publications.html\n                                 ↓\n                         Show \"EN\" button"
+  },
+  {
+    "objectID": "ARCHITECTURE.html#page-template",
+    "href": "ARCHITECTURE.html#page-template",
+    "title": "Bilingual Website Architecture",
+    "section": "",
+    "text": "&lt;!DOCTYPE html&gt;\n&lt;html lang=\"zh|en\"&gt;\n&lt;head&gt;\n    &lt;!-- Quarto meta tags, styles --&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;header&gt;\n        &lt;nav class=\"navbar\"&gt;\n            &lt;a href=\"index.html\"&gt;主页|Home&lt;/a&gt;\n            &lt;a href=\"publications.html\"&gt;学术成果|Publications&lt;/a&gt;\n            &lt;a href=\"about.html\"&gt;关于|About&lt;/a&gt;\n            \n            &lt;!-- Language switcher added here by JavaScript --&gt;\n            &lt;a href=\"../en/page.html\" id=\"language-switcher\"&gt;EN&lt;/a&gt;\n        &lt;/nav&gt;\n    &lt;/header&gt;\n    \n    &lt;main&gt;\n        &lt;!-- Page content --&gt;\n    &lt;/main&gt;\n    \n    &lt;footer&gt;\n        &lt;!-- Footer content --&gt;\n    &lt;/footer&gt;\n    \n    &lt;!-- Language switcher script --&gt;\n    &lt;script src=\"../assets/lang-switch.js\"&gt;&lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "ARCHITECTURE.html#configuration-cascade",
+    "href": "ARCHITECTURE.html#configuration-cascade",
+    "title": "Bilingual Website Architecture",
+    "section": "",
+    "text": "Global Config             Language Config           Output\n─────────────             ───────────────           ──────\n\n_quarto.yml               zh/_quarto.yml            docs/zh/\n(Shared settings)   +     (Chinese navbar,    →    - Chinese HTML\n- theme                   output-dir,               - Chinese nav labels\n- toc                     favicon,                  - lang=\"zh\"\n- footer template         lang: zh)                 - Search in Chinese\n\n_quarto.yml               en/_quarto.yml            docs/en/\n(Shared settings)   +     (English navbar,    →    - English HTML\n- theme                   output-dir,               - English nav labels  \n- toc                     favicon,                  - lang=\"en\"\n- footer template         lang: en)                 - Search in English"
+  },
+  {
+    "objectID": "ARCHITECTURE.html#user-experience-flow",
+    "href": "ARCHITECTURE.html#user-experience-flow",
+    "title": "Bilingual Website Architecture",
+    "section": "",
+    "text": "First Visit:\n  User → https://JiajunDu-ReSustain.github.io/\n       → Auto-detect language (JavaScript)\n       → Redirect to /zh/ or /en/\n\nNavigation:\n  User on /zh/index.html\n       → Clicks \"学术成果\"\n       → Goes to /zh/publications.html\n       → Sees \"EN\" button in navbar\n\nLanguage Switch:\n  User on /zh/publications.html\n       → Clicks \"EN\" button\n       → JavaScript: /zh/publications.html → /en/publications.html\n       → Goes to /en/publications.html\n       → Now sees \"中文\" button in navbar\n\nPage Not Found Fallback:\n  User on /zh/special-page.html\n       → Clicks \"EN\" button\n       → JavaScript: /zh/special-page.html → /en/special-page.html\n       → Page doesn't exist\n       → Falls back to /en/index.html"
+  },
+  {
+    "objectID": "ARCHITECTURE.html#deployment-pipeline",
+    "href": "ARCHITECTURE.html#deployment-pipeline",
+    "title": "Bilingual Website Architecture",
+    "section": "",
+    "text": "Local Development          Version Control         GitHub Pages\n─────────────────          ───────────────         ────────────\n\n1. Edit zh/*.qmd           3. git add .            5. GitHub receives push\n   Edit en/*.qmd              git commit -m \"...\"     ↓\n   ↓                          git push              6. Serves docs/ folder\n                              ↓                        ↓\n2. Run build.bat          4. Push to GitHub       7. Site live at:\n   ↓                          ↓                       https://...github.io/\n   Generates docs/zh/         Repository updated      ├─ /zh/\n   Generates docs/en/         ↓                       └─ /en/\n   Copies resources           Includes docs/\nThis architecture provides: - ✅ Complete separation of languages - ✅ Consistent URL structure - ✅ Seamless language switching - ✅ Static site (no server required) - ✅ Easy maintenance - ✅ Scalable to add more languages"
+  },
+  {
+    "objectID": "BUILD_GUIDE.html",
+    "href": "BUILD_GUIDE.html",
+    "title": "Bilingual Quarto Website Build Guide",
+    "section": "",
+    "text": "This website uses Quarto profiles to generate bilingual (Chinese/English) content.\n\n\n\n.\n├── zh/                  # Chinese content\n│   ├── index.qmd\n│   ├── about.qmd\n│   └── publications.qmd\n├── en/                  # English content\n│   ├── index.qmd\n│   ├── about.qmd\n│   └── publications.qmd\n├── assets/\n│   └── lang-switch.js   # Language switcher script\n├── _quarto.yml          # Shared configuration\n├── _quarto-zh.yml       # Chinese profile\n└── _quarto-en.yml       # English profile\n\n\n\n\n\ncd zh\nquarto render\ncd ..\nThis will render all files in zh/ to docs/zh/\n\n\n\ncd en\nquarto render\ncd ..\nThis will render all files in en/ to docs/en/\n\n\n\ncd zh && quarto render && cd ..\ncd en && quarto render && cd ..\n\n\n\n# Windows\nxcopy /E /I /Y assets docs\\assets\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\n\n# Linux/Mac\ncp -r assets docs/\ncp -r images docs/\ncp -r pdf docs/\n\n\n\n\nThe language switcher is implemented via assets/lang-switch.js:\n\nAutomatically detects current language from URL path (/zh/ or /en/)\nShows “EN” on Chinese pages, “中文” on English pages\nMaps corresponding pages (e.g., /zh/about.html ↔︎ /en/about.html)\nFalls back to homepage if counterpart page doesn’t exist\nDisplays in top-right corner of navbar\n\n\n\n\n\nBuild both language versions\nCommit the entire docs/ directory\nConfigure GitHub Pages to serve from docs/ folder\nAccess the site at:\n\nEnglish: https://JiajunDu-ReSustain.github.io/en/\nChinese: https://JiajunDu-ReSustain.github.io/zh/\n\n\n\n\n\n\nCreate corresponding .qmd files in both zh/ and en/ directories\nUse the same filename in both languages (e.g., contact.qmd)\nAdd navigation entries to both _quarto-zh.yml and _quarto-en.yml\nThe language switcher will automatically handle the new pages\n\n\n\n\n\n**_quarto.yml**: Shared settings (theme, toc, footer)\n**_quarto-zh.yml**: Chinese-specific settings (navbar labels, output directory)\n**_quarto-en.yml**: English-specific settings (navbar labels, output directory)"
+  },
+  {
+    "objectID": "BUILD_GUIDE.html#overview",
+    "href": "BUILD_GUIDE.html#overview",
+    "title": "Bilingual Quarto Website Build Guide",
+    "section": "",
+    "text": "This website uses Quarto profiles to generate bilingual (Chinese/English) content."
+  },
+  {
+    "objectID": "BUILD_GUIDE.html#directory-structure",
+    "href": "BUILD_GUIDE.html#directory-structure",
+    "title": "Bilingual Quarto Website Build Guide",
+    "section": "",
+    "text": ".\n├── zh/                  # Chinese content\n│   ├── index.qmd\n│   ├── about.qmd\n│   └── publications.qmd\n├── en/                  # English content\n│   ├── index.qmd\n│   ├── about.qmd\n│   └── publications.qmd\n├── assets/\n│   └── lang-switch.js   # Language switcher script\n├── _quarto.yml          # Shared configuration\n├── _quarto-zh.yml       # Chinese profile\n└── _quarto-en.yml       # English profile"
+  },
+  {
+    "objectID": "BUILD_GUIDE.html#building-the-site",
+    "href": "BUILD_GUIDE.html#building-the-site",
+    "title": "Bilingual Quarto Website Build Guide",
+    "section": "",
+    "text": "cd zh\nquarto render\ncd ..\nThis will render all files in zh/ to docs/zh/\n\n\n\ncd en\nquarto render\ncd ..\nThis will render all files in en/ to docs/en/\n\n\n\ncd zh && quarto render && cd ..\ncd en && quarto render && cd ..\n\n\n\n# Windows\nxcopy /E /I /Y assets docs\\assets\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\n\n# Linux/Mac\ncp -r assets docs/\ncp -r images docs/\ncp -r pdf docs/"
+  },
+  {
+    "objectID": "BUILD_GUIDE.html#language-switcher",
+    "href": "BUILD_GUIDE.html#language-switcher",
+    "title": "Bilingual Quarto Website Build Guide",
+    "section": "",
+    "text": "The language switcher is implemented via assets/lang-switch.js:\n\nAutomatically detects current language from URL path (/zh/ or /en/)\nShows “EN” on Chinese pages, “中文” on English pages\nMaps corresponding pages (e.g., /zh/about.html ↔︎ /en/about.html)\nFalls back to homepage if counterpart page doesn’t exist\nDisplays in top-right corner of navbar"
+  },
+  {
+    "objectID": "BUILD_GUIDE.html#github-pages-deployment",
+    "href": "BUILD_GUIDE.html#github-pages-deployment",
+    "title": "Bilingual Quarto Website Build Guide",
+    "section": "",
+    "text": "Build both language versions\nCommit the entire docs/ directory\nConfigure GitHub Pages to serve from docs/ folder\nAccess the site at:\n\nEnglish: https://JiajunDu-ReSustain.github.io/en/\nChinese: https://JiajunDu-ReSustain.github.io/zh/"
+  },
+  {
+    "objectID": "BUILD_GUIDE.html#adding-new-pages",
+    "href": "BUILD_GUIDE.html#adding-new-pages",
+    "title": "Bilingual Quarto Website Build Guide",
+    "section": "",
+    "text": "Create corresponding .qmd files in both zh/ and en/ directories\nUse the same filename in both languages (e.g., contact.qmd)\nAdd navigation entries to both _quarto-zh.yml and _quarto-en.yml\nThe language switcher will automatically handle the new pages"
+  },
+  {
+    "objectID": "BUILD_GUIDE.html#configuration-files",
+    "href": "BUILD_GUIDE.html#configuration-files",
+    "title": "Bilingual Quarto Website Build Guide",
+    "section": "",
+    "text": "**_quarto.yml**: Shared settings (theme, toc, footer)\n**_quarto-zh.yml**: Chinese-specific settings (navbar labels, output directory)\n**_quarto-en.yml**: English-specific settings (navbar labels, output directory)"
+  },
+  {
+    "objectID": "CHECKLIST.html",
+    "href": "CHECKLIST.html",
+    "title": "✅ Implementation Checklist",
+    "section": "",
+    "text": "Created zh/ directory with Chinese content\nCreated en/ directory with English content\nCreated assets/ directory for JavaScript\nConfigured output to docs/zh/ and docs/en/\n\n\n\n\n\n_quarto.yml - Shared global config\n_quarto-zh.yml - Chinese profile config (minimal)\n_quarto-en.yml - English profile config (minimal)\nzh/_quarto.yml - Chinese-specific config with navbar\nen/_quarto.yml - English-specific config with navbar\n\n\n\n\n\nzh/index.qmd - Chinese homepage\nzh/about.qmd - Chinese about page\nzh/publications.qmd - Chinese publications\nen/index.qmd - English homepage\nen/about.qmd - English about page\nen/publications.qmd - English publications\n\n\n\n\n\nCreated assets/lang-switch.js\nDetects current language from URL\nShows “EN” on Chinese pages\nShows “中文” on English pages\nMaps corresponding pages correctly\nFalls back to homepage if page doesn’t exist\nIncluded in all rendered pages\n\n\n\n\n\nCreated build.bat for Windows\nCreated build.sh for Linux/Mac\nCopies resources (assets, images, pdf) to docs/\nBuilds both language versions\nHandles errors gracefully\n\n\n\n\n\nCreated docs/index.html\nAuto-detects browser language\nRedirects to appropriate language\nProvides manual links\n\n\n\n\n\nBUILD_GUIDE.md - Build instructions\nGIT_WORKFLOW.md - Git workflow\nIMPLEMENTATION_SUMMARY.md - Implementation details\nQUICK_REFERENCE.md - Quick reference card\nreadme.md - Project overview\n\n\n\n\n\nSuccessfully built Chinese version\nSuccessfully built English version\nVerified language switcher script inclusion\nVerified output structure\nVerified resources copied correctly\n\n\n\n\n\nAll filenames match across languages\nURL slugs are consistent\nNavbar labels are language-appropriate\nLanguage switcher works on all pages\nResources (images, PDFs) accessible from both languages\nClean, minimal configuration\nNo broken links\nProper HTML lang attributes\n\n\n\n\n\nThe bilingual website is complete and ready to be deployed to GitHub Pages!\n\n\n\nTest locally (optional):\nquarto preview docs/zh\nquarto preview docs/en\nCommit and push:\ngit add .\ngit commit -m \"Implement bilingual website with language switcher\"\ngit push origin main\nConfigure GitHub Pages:\n\nGo to Settings → Pages\nSet source: main branch, /docs folder\nSave\n\nWait and verify:\n\nWait 1-2 minutes for deployment\nVisit: https://JiajunDu-ReSustain.github.io/\nTest language switching on various pages\n\n\n\n\n\n\n✅ Bilingual (Chinese/English) website ✅ Automatic language detection ✅ Page-to-page language switching ✅ Clean, professional navbar design ✅ Responsive layout ✅ Static site (no server required) ✅ GitHub Pages compatible ✅ Easy to maintain and extend ✅ Comprehensive documentation ✅ Automated build scripts\n\n\n\nUser visits root → Auto-detects language → Redirects to /zh/ or /en/\n                                              ↓\n                                    Views page in selected language\n                                              ↓\n                            Clicks language switcher (EN or 中文)\n                                              ↓\n                            Maps to corresponding page in other language\n                                              ↓\n                            If exists: switches to that page\n                            If not: goes to homepage of target language\n\n\n\n✅ Two language source directories (zh/, en/) ✅ Matching filenames and URL slugs ✅ Shared global configuration ✅ Two Quarto profile configs ✅ Output to docs/zh/ and docs/en/ ✅ Language-specific navbar labels ✅ Client-side language switcher ✅ Detects current URL path ✅ Detects current language ✅ Replaces path accordingly ✅ Updates navbar link text dynamically ✅ Top-right placement ✅ Works on all pages consistently ✅ Renders with quarto render (from subdirectories) ✅ GitHub Pages compatible ✅ No frameworks or dependencies ✅ Existing styles preserved ✅ Relative paths work correctly ✅ Clean, minimal, well-structured\n🎉 ALL REQUIREMENTS SATISFIED!"
+  },
+  {
+    "objectID": "CHECKLIST.html#completed-tasks",
+    "href": "CHECKLIST.html#completed-tasks",
+    "title": "✅ Implementation Checklist",
+    "section": "",
+    "text": "Created zh/ directory with Chinese content\nCreated en/ directory with English content\nCreated assets/ directory for JavaScript\nConfigured output to docs/zh/ and docs/en/\n\n\n\n\n\n_quarto.yml - Shared global config\n_quarto-zh.yml - Chinese profile config (minimal)\n_quarto-en.yml - English profile config (minimal)\nzh/_quarto.yml - Chinese-specific config with navbar\nen/_quarto.yml - English-specific config with navbar\n\n\n\n\n\nzh/index.qmd - Chinese homepage\nzh/about.qmd - Chinese about page\nzh/publications.qmd - Chinese publications\nen/index.qmd - English homepage\nen/about.qmd - English about page\nen/publications.qmd - English publications\n\n\n\n\n\nCreated assets/lang-switch.js\nDetects current language from URL\nShows “EN” on Chinese pages\nShows “中文” on English pages\nMaps corresponding pages correctly\nFalls back to homepage if page doesn’t exist\nIncluded in all rendered pages\n\n\n\n\n\nCreated build.bat for Windows\nCreated build.sh for Linux/Mac\nCopies resources (assets, images, pdf) to docs/\nBuilds both language versions\nHandles errors gracefully\n\n\n\n\n\nCreated docs/index.html\nAuto-detects browser language\nRedirects to appropriate language\nProvides manual links\n\n\n\n\n\nBUILD_GUIDE.md - Build instructions\nGIT_WORKFLOW.md - Git workflow\nIMPLEMENTATION_SUMMARY.md - Implementation details\nQUICK_REFERENCE.md - Quick reference card\nreadme.md - Project overview\n\n\n\n\n\nSuccessfully built Chinese version\nSuccessfully built English version\nVerified language switcher script inclusion\nVerified output structure\nVerified resources copied correctly\n\n\n\n\n\nAll filenames match across languages\nURL slugs are consistent\nNavbar labels are language-appropriate\nLanguage switcher works on all pages\nResources (images, PDFs) accessible from both languages\nClean, minimal configuration\nNo broken links\nProper HTML lang attributes"
+  },
+  {
+    "objectID": "CHECKLIST.html#ready-for-deployment",
+    "href": "CHECKLIST.html#ready-for-deployment",
+    "title": "✅ Implementation Checklist",
+    "section": "",
+    "text": "The bilingual website is complete and ready to be deployed to GitHub Pages!\n\n\n\nTest locally (optional):\nquarto preview docs/zh\nquarto preview docs/en\nCommit and push:\ngit add .\ngit commit -m \"Implement bilingual website with language switcher\"\ngit push origin main\nConfigure GitHub Pages:\n\nGo to Settings → Pages\nSet source: main branch, /docs folder\nSave\n\nWait and verify:\n\nWait 1-2 minutes for deployment\nVisit: https://JiajunDu-ReSustain.github.io/\nTest language switching on various pages"
+  },
+  {
+    "objectID": "CHECKLIST.html#features-delivered",
+    "href": "CHECKLIST.html#features-delivered",
+    "title": "✅ Implementation Checklist",
+    "section": "",
+    "text": "✅ Bilingual (Chinese/English) website ✅ Automatic language detection ✅ Page-to-page language switching ✅ Clean, professional navbar design ✅ Responsive layout ✅ Static site (no server required) ✅ GitHub Pages compatible ✅ Easy to maintain and extend ✅ Comprehensive documentation ✅ Automated build scripts"
+  },
+  {
+    "objectID": "CHECKLIST.html#architecture-summary",
+    "href": "CHECKLIST.html#architecture-summary",
+    "title": "✅ Implementation Checklist",
+    "section": "",
+    "text": "User visits root → Auto-detects language → Redirects to /zh/ or /en/\n                                              ↓\n                                    Views page in selected language\n                                              ↓\n                            Clicks language switcher (EN or 中文)\n                                              ↓\n                            Maps to corresponding page in other language\n                                              ↓\n                            If exists: switches to that page\n                            If not: goes to homepage of target language"
+  },
+  {
+    "objectID": "CHECKLIST.html#success-criteria-met",
+    "href": "CHECKLIST.html#success-criteria-met",
+    "title": "✅ Implementation Checklist",
+    "section": "",
+    "text": "✅ Two language source directories (zh/, en/) ✅ Matching filenames and URL slugs ✅ Shared global configuration ✅ Two Quarto profile configs ✅ Output to docs/zh/ and docs/en/ ✅ Language-specific navbar labels ✅ Client-side language switcher ✅ Detects current URL path ✅ Detects current language ✅ Replaces path accordingly ✅ Updates navbar link text dynamically ✅ Top-right placement ✅ Works on all pages consistently ✅ Renders with quarto render (from subdirectories) ✅ GitHub Pages compatible ✅ No frameworks or dependencies ✅ Existing styles preserved ✅ Relative paths work correctly ✅ Clean, minimal, well-structured\n🎉 ALL REQUIREMENTS SATISFIED!"
+  },
+  {
+    "objectID": "GIT_WORKFLOW.html",
+    "href": "GIT_WORKFLOW.html",
+    "title": "Git Workflow for Bilingual Site",
+    "section": "",
+    "text": "✅ Source files: zh/*.qmd, en/*.qmd\n✅ Configuration: *_quarto.yml, zh/_quarto.yml, en/_quarto.yml\n✅ Assets: assets/, images/, pdf/\n✅ Styles: styles.scss\n✅ Build scripts: build.bat, build.sh\n✅ Documentation: *.md files\n✅ Rendered output: docs/** (required for GitHub Pages!)\n\n\n\n\n\n✅ docs/zh/ - Chinese rendered HTML\n✅ docs/en/ - English rendered HTML\n✅ docs/assets/ - JavaScript files\n✅ docs/images/ - Image files\n✅ docs/pdf/ - PDF files\n✅ docs/index.html - Root redirect page\n\n\n\n\n\n\n\n# Edit files in zh/ or en/\ncode zh/index.qmd\ncode en/index.qmd\n\n\n\n# Windows\nbuild.bat\n\n# Linux/Mac\n./build.sh\n\n\n\n# Preview Chinese version\nquarto preview docs/zh\n\n# Preview English version\nquarto preview docs/en\n\n# Or open in browser\n# file:///path/to/docs/zh/index.html\n# file:///path/to/docs/en/index.html\n\n\n\ngit add .\ngit commit -m \"Update content and rebuild site\"\ngit push origin main\n\n\n\n\nWait 1-2 minutes for GitHub Pages to update\nVisit: https://JiajunDu-ReSustain.github.io/\n\n\n\n\n\n\n\nGitHub Pages serves directly from the docs/ folder, so we must commit the rendered HTML files.\n\n\n\nRebuild whenever you: - Change any .qmd content file - Update _quarto.yml configuration - Modify styles.scss - Add/remove pages - Update assets/lang-switch.js\n\n\n\n# Chinese only\ncd zh && quarto render && cd ..\nxcopy /E /I /Y assets docs\\assets\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\n\n# English only\ncd en && quarto render && cd ..\nxcopy /E /I /Y assets docs\\assets\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\n\n\n\nIf you need to do a clean rebuild:\n# Windows\nrmdir /s /q docs\\zh\nrmdir /s /q docs\\en\nbuild.bat\n\n# Linux/Mac\nrm -rf docs/zh docs/en\n./build.sh\n\n\n\n\nMake sure GitHub Pages is configured to serve from: - Branch: main - Folder: /docs\nThis can be configured in: Repository Settings → Pages → Build and deployment"
+  },
+  {
+    "objectID": "GIT_WORKFLOW.html#what-to-commit",
+    "href": "GIT_WORKFLOW.html#what-to-commit",
+    "title": "Git Workflow for Bilingual Site",
+    "section": "",
+    "text": "✅ Source files: zh/*.qmd, en/*.qmd\n✅ Configuration: *_quarto.yml, zh/_quarto.yml, en/_quarto.yml\n✅ Assets: assets/, images/, pdf/\n✅ Styles: styles.scss\n✅ Build scripts: build.bat, build.sh\n✅ Documentation: *.md files\n✅ Rendered output: docs/** (required for GitHub Pages!)\n\n\n\n\n\n✅ docs/zh/ - Chinese rendered HTML\n✅ docs/en/ - English rendered HTML\n✅ docs/assets/ - JavaScript files\n✅ docs/images/ - Image files\n✅ docs/pdf/ - PDF files\n✅ docs/index.html - Root redirect page"
+  },
+  {
+    "objectID": "GIT_WORKFLOW.html#typical-workflow",
+    "href": "GIT_WORKFLOW.html#typical-workflow",
+    "title": "Git Workflow for Bilingual Site",
+    "section": "",
+    "text": "# Edit files in zh/ or en/\ncode zh/index.qmd\ncode en/index.qmd\n\n\n\n# Windows\nbuild.bat\n\n# Linux/Mac\n./build.sh\n\n\n\n# Preview Chinese version\nquarto preview docs/zh\n\n# Preview English version\nquarto preview docs/en\n\n# Or open in browser\n# file:///path/to/docs/zh/index.html\n# file:///path/to/docs/en/index.html\n\n\n\ngit add .\ngit commit -m \"Update content and rebuild site\"\ngit push origin main\n\n\n\n\nWait 1-2 minutes for GitHub Pages to update\nVisit: https://JiajunDu-ReSustain.github.io/"
+  },
+  {
+    "objectID": "GIT_WORKFLOW.html#important-notes",
+    "href": "GIT_WORKFLOW.html#important-notes",
+    "title": "Git Workflow for Bilingual Site",
+    "section": "",
+    "text": "GitHub Pages serves directly from the docs/ folder, so we must commit the rendered HTML files.\n\n\n\nRebuild whenever you: - Change any .qmd content file - Update _quarto.yml configuration - Modify styles.scss - Add/remove pages - Update assets/lang-switch.js\n\n\n\n# Chinese only\ncd zh && quarto render && cd ..\nxcopy /E /I /Y assets docs\\assets\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\n\n# English only\ncd en && quarto render && cd ..\nxcopy /E /I /Y assets docs\\assets\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\n\n\n\nIf you need to do a clean rebuild:\n# Windows\nrmdir /s /q docs\\zh\nrmdir /s /q docs\\en\nbuild.bat\n\n# Linux/Mac\nrm -rf docs/zh docs/en\n./build.sh"
+  },
+  {
+    "objectID": "GIT_WORKFLOW.html#github-pages-configuration",
+    "href": "GIT_WORKFLOW.html#github-pages-configuration",
+    "title": "Git Workflow for Bilingual Site",
+    "section": "",
+    "text": "Make sure GitHub Pages is configured to serve from: - Branch: main - Folder: /docs\nThis can be configured in: Repository Settings → Pages → Build and deployment"
+  },
+  {
+    "objectID": "QUICK_REFERENCE.html",
+    "href": "QUICK_REFERENCE.html",
+    "title": "Quick Reference Card",
+    "section": "",
+    "text": "# Windows\nbuild.bat\n\n# Linux/Mac\n./build.sh\n\n\n\n# Chinese\ncd zh && quarto render && cd ..\n\n# English\ncd en && quarto render && cd ..\n\n# Then copy resources\nxcopy /E /I /Y assets docs\\assets\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\n\n\n\n# Chinese\nquarto preview docs/zh\n\n# English\nquarto preview docs/en\n\n# Or use browser\n# file:///path/to/docs/zh/index.html\n\n\n\ngit add .\ngit commit -m \"Update content\"\ngit push origin main\n# Wait 1-2 minutes, then visit:\n# https://JiajunDu-ReSustain.github.io/\n\n\n\n# Windows\nrmdir /s /q docs\\zh\nrmdir /s /q docs\\en\nbuild.bat\n\n# Linux/Mac\nrm -rf docs/zh docs/en\n./build.sh\n\n\n\n\n\n\n\nChinese: zh/*.qmd\nEnglish: en/*.qmd\n\n\n\n\n\nChinese: zh/_quarto.yml\nEnglish: en/_quarto.yml\n\n\n\n\n\nTheme: styles.scss\n\n\n\n\n\nScript: assets/lang-switch.js\n\n\n\n\n\n\n\n\nCheck docs/assets/lang-switch.js exists\nRebuild: build.bat or ./build.sh\nClear browser cache\n\n\n\n\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\n\n\n\n\nCheck Quarto version: quarto --version\nCheck YAML syntax in _quarto.yml files\nEnsure you’re in the right directory\n\n\n\n\n\n\nBUILD_GUIDE.md - Complete build instructions\nGIT_WORKFLOW.md - Git workflow details\nIMPLEMENTATION_SUMMARY.md - Technical details\n\n\n\n\n\nEnglish: https://JiajunDu-ReSustain.github.io/en/\nChinese: https://JiajunDu-ReSustain.github.io/zh/\nAuto: https://JiajunDu-ReSustain.github.io/"
+  },
+  {
+    "objectID": "QUICK_REFERENCE.html#common-tasks",
+    "href": "QUICK_REFERENCE.html#common-tasks",
+    "title": "Quick Reference Card",
+    "section": "",
+    "text": "# Windows\nbuild.bat\n\n# Linux/Mac\n./build.sh\n\n\n\n# Chinese\ncd zh && quarto render && cd ..\n\n# English\ncd en && quarto render && cd ..\n\n# Then copy resources\nxcopy /E /I /Y assets docs\\assets\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\n\n\n\n# Chinese\nquarto preview docs/zh\n\n# English\nquarto preview docs/en\n\n# Or use browser\n# file:///path/to/docs/zh/index.html\n\n\n\ngit add .\ngit commit -m \"Update content\"\ngit push origin main\n# Wait 1-2 minutes, then visit:\n# https://JiajunDu-ReSustain.github.io/\n\n\n\n# Windows\nrmdir /s /q docs\\zh\nrmdir /s /q docs\\en\nbuild.bat\n\n# Linux/Mac\nrm -rf docs/zh docs/en\n./build.sh"
+  },
+  {
+    "objectID": "QUICK_REFERENCE.html#file-locations",
+    "href": "QUICK_REFERENCE.html#file-locations",
+    "title": "Quick Reference Card",
+    "section": "",
+    "text": "Chinese: zh/*.qmd\nEnglish: en/*.qmd\n\n\n\n\n\nChinese: zh/_quarto.yml\nEnglish: en/_quarto.yml\n\n\n\n\n\nTheme: styles.scss\n\n\n\n\n\nScript: assets/lang-switch.js"
+  },
+  {
+    "objectID": "QUICK_REFERENCE.html#troubleshooting",
+    "href": "QUICK_REFERENCE.html#troubleshooting",
+    "title": "Quick Reference Card",
+    "section": "",
+    "text": "Check docs/assets/lang-switch.js exists\nRebuild: build.bat or ./build.sh\nClear browser cache\n\n\n\n\nxcopy /E /I /Y images docs\\images\nxcopy /E /I /Y pdf docs\\pdf\n\n\n\n\nCheck Quarto version: quarto --version\nCheck YAML syntax in _quarto.yml files\nEnsure you’re in the right directory"
+  },
+  {
+    "objectID": "QUICK_REFERENCE.html#full-documentation",
+    "href": "QUICK_REFERENCE.html#full-documentation",
+    "title": "Quick Reference Card",
+    "section": "",
+    "text": "BUILD_GUIDE.md - Complete build instructions\nGIT_WORKFLOW.md - Git workflow details\nIMPLEMENTATION_SUMMARY.md - Technical details"
+  },
+  {
+    "objectID": "QUICK_REFERENCE.html#urls",
+    "href": "QUICK_REFERENCE.html#urls",
+    "title": "Quick Reference Card",
+    "section": "",
+    "text": "English: https://JiajunDu-ReSustain.github.io/en/\nChinese: https://JiajunDu-ReSustain.github.io/zh/\nAuto: https://JiajunDu-ReSustain.github.io/"
   }
 ]

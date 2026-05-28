@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://JiajunDu-ReSustain.github.io/readme.html</loc>
-    <lastmod>2026-01-09T01:25:59.000Z</lastmod>
+    <lastmod>2026-01-09T08:14:23.351Z</lastmod>
   </url>
   <url>
     <loc>https://JiajunDu-ReSustain.github.io/index.html</loc>
@@ -15,5 +15,37 @@
   <url>
     <loc>https://JiajunDu-ReSustain.github.io/publications.html</loc>
     <lastmod>2026-01-09T01:25:59.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://JiajunDu-ReSustain.github.io/IMPLEMENTATION_SUMMARY.html</loc>
+    <lastmod>2026-01-09T08:14:23.351Z</lastmod>
+  </url>
+  <url>
+    <loc>https://JiajunDu-ReSustain.github.io/CLAUDE.html</loc>
+    <lastmod>2026-04-22T21:56:21.305Z</lastmod>
+  </url>
+  <url>
+    <loc>https://JiajunDu-ReSustain.github.io/CHANGELOG.html</loc>
+    <lastmod>2026-04-23T02:09:55.277Z</lastmod>
+  </url>
+  <url>
+    <loc>https://JiajunDu-ReSustain.github.io/ARCHITECTURE.html</loc>
+    <lastmod>2026-01-09T08:14:23.355Z</lastmod>
+  </url>
+  <url>
+    <loc>https://JiajunDu-ReSustain.github.io/BUILD_GUIDE.html</loc>
+    <lastmod>2026-01-09T08:14:23.351Z</lastmod>
+  </url>
+  <url>
+    <loc>https://JiajunDu-ReSustain.github.io/CHECKLIST.html</loc>
+    <lastmod>2026-01-09T08:14:23.355Z</lastmod>
+  </url>
+  <url>
+    <loc>https://JiajunDu-ReSustain.github.io/GIT_WORKFLOW.html</loc>
+    <lastmod>2026-01-09T08:14:23.351Z</lastmod>
+  </url>
+  <url>
+    <loc>https://JiajunDu-ReSustain.github.io/QUICK_REFERENCE.html</loc>
+    <lastmod>2026-01-09T08:14:23.351Z</lastmod>
   </url>
 </urlset>

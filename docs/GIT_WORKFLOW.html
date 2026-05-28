@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>readme – Jiajun Du</title>
+<title>git_workflow – Jiajun Du</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -119,26 +119,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#jiajun-dus-personal-academic-website" id="toc-jiajun-dus-personal-academic-website" class="nav-link active" data-scroll-target="#jiajun-dus-personal-academic-website">Jiajun Du’s Personal Academic Website</a>
+  <li><a href="#git-workflow-for-bilingual-site" id="toc-git-workflow-for-bilingual-site" class="nav-link active" data-scroll-target="#git-workflow-for-bilingual-site">Git Workflow for Bilingual Site</a>
   <ul class="collapse">
-  <li><a href="#live-site" id="toc-live-site" class="nav-link" data-scroll-target="#live-site">🌐 Live Site</a></li>
-  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">✨ Features</a></li>
-  <li><a href="#technology-stack" id="toc-technology-stack" class="nav-link" data-scroll-target="#technology-stack">🛠️ Technology Stack</a></li>
-  <li><a href="#project-structure" id="toc-project-structure" class="nav-link" data-scroll-target="#project-structure">📁 Project Structure</a></li>
-  <li><a href="#quick-start" id="toc-quick-start" class="nav-link" data-scroll-target="#quick-start">🚀 Quick Start</a>
+  <li><a href="#what-to-commit" id="toc-what-to-commit" class="nav-link" data-scroll-target="#what-to-commit">What to Commit</a>
   <ul class="collapse">
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
-  <li><a href="#building-the-site" id="toc-building-the-site" class="nav-link" data-scroll-target="#building-the-site">Building the Site</a></li>
-  <li><a href="#local-preview" id="toc-local-preview" class="nav-link" data-scroll-target="#local-preview">Local Preview</a></li>
+  <li><a href="#always-commit" id="toc-always-commit" class="nav-link" data-scroll-target="#always-commit">Always commit:</a></li>
+  <li><a href="#build-artifacts-that-are-committed" id="toc-build-artifacts-that-are-committed" class="nav-link" data-scroll-target="#build-artifacts-that-are-committed">Build artifacts that ARE committed:</a></li>
   </ul></li>
-  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">📖 Documentation</a></li>
-  <li><a href="#adding-new-content" id="toc-adding-new-content" class="nav-link" data-scroll-target="#adding-new-content">🔧 Adding New Content</a></li>
-  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">📝 License</a></li>
-  <li><a href="#author" id="toc-author" class="nav-link" data-scroll-target="#author">👤 Author</a></li>
-  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">🙏 Acknowledgments</a></li>
+  <li><a href="#typical-workflow" id="toc-typical-workflow" class="nav-link" data-scroll-target="#typical-workflow">Typical Workflow</a>
+  <ul class="collapse">
+  <li><a href="#make-changes-to-source-files" id="toc-make-changes-to-source-files" class="nav-link" data-scroll-target="#make-changes-to-source-files">1. Make changes to source files</a></li>
+  <li><a href="#build-the-site" id="toc-build-the-site" class="nav-link" data-scroll-target="#build-the-site">2. Build the site</a></li>
+  <li><a href="#test-locally" id="toc-test-locally" class="nav-link" data-scroll-target="#test-locally">3. Test locally</a></li>
+  <li><a href="#commit-everything" id="toc-commit-everything" class="nav-link" data-scroll-target="#commit-everything">4. Commit everything</a></li>
+  <li><a href="#verify-on-github-pages" id="toc-verify-on-github-pages" class="nav-link" data-scroll-target="#verify-on-github-pages">5. Verify on GitHub Pages</a></li>
+  </ul></li>
+  <li><a href="#important-notes" id="toc-important-notes" class="nav-link" data-scroll-target="#important-notes">Important Notes</a>
+  <ul class="collapse">
+  <li><a href="#why-commit-docs" id="toc-why-commit-docs" class="nav-link" data-scroll-target="#why-commit-docs">Why commit docs/?</a></li>
+  <li><a href="#when-to-rebuild" id="toc-when-to-rebuild" class="nav-link" data-scroll-target="#when-to-rebuild">When to rebuild?</a></li>
+  <li><a href="#quick-rebuild-for-one-language" id="toc-quick-rebuild-for-one-language" class="nav-link" data-scroll-target="#quick-rebuild-for-one-language">Quick rebuild for one language</a></li>
+  <li><a href="#cleaning-build-artifacts" id="toc-cleaning-build-artifacts" class="nav-link" data-scroll-target="#cleaning-build-artifacts">Cleaning build artifacts</a></li>
+  </ul></li>
+  <li><a href="#github-pages-configuration" id="toc-github-pages-configuration" class="nav-link" data-scroll-target="#github-pages-configuration">GitHub Pages Configuration</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/edit/main/readme.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/edit/main/GIT_WORKFLOW.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -146,117 +152,117 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="jiajun-dus-personal-academic-website" class="level1">
-<h1>Jiajun Du’s Personal Academic Website</h1>
-<p><a href="https://quarto.org/"><img src="https://img.shields.io/badge/Made%20with-Quarto-blue.svg" class="img-fluid" alt="Quarto"></a> <a href="https://pages.github.com/"><img src="https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-green.svg" class="img-fluid" alt="GitHub Pages"></a></p>
-<p>A bilingual (Chinese/English) academic website built with Quarto and hosted on GitHub Pages.</p>
-<section id="live-site" class="level2">
-<h2 class="anchored" data-anchor-id="live-site">🌐 Live Site</h2>
+<section id="git-workflow-for-bilingual-site" class="level1">
+<h1>Git Workflow for Bilingual Site</h1>
+<section id="what-to-commit" class="level2">
+<h2 class="anchored" data-anchor-id="what-to-commit">What to Commit</h2>
+<section id="always-commit" class="level3">
+<h3 class="anchored" data-anchor-id="always-commit">Always commit:</h3>
 <ul>
-<li><strong>English</strong>: <a href="https://JiajunDu-ReSustain.github.io/en/">https://JiajunDu-ReSustain.github.io/en/</a></li>
-<li><strong>Chinese</strong>: <a href="https://JiajunDu-ReSustain.github.io/zh/">https://JiajunDu-ReSustain.github.io/zh/</a></li>
-<li><strong>Auto-detect</strong>: <a href="https://JiajunDu-ReSustain.github.io/">https://JiajunDu-ReSustain.github.io/</a></li>
+<li>✅ Source files: <code>zh/*.qmd</code>, <code>en/*.qmd</code></li>
+<li>✅ Configuration: <code>*_quarto.yml</code>, <code>zh/_quarto.yml</code>, <code>en/_quarto.yml</code></li>
+<li>✅ Assets: <code>assets/</code>, <code>images/</code>, <code>pdf/</code></li>
+<li>✅ Styles: <code>styles.scss</code></li>
+<li>✅ Build scripts: <code>build.bat</code>, <code>build.sh</code></li>
+<li>✅ Documentation: <code>*.md</code> files</li>
+<li>✅ <strong>Rendered output: <code>docs/**</code></strong> (required for GitHub Pages!)</li>
 </ul>
 </section>
-<section id="features" class="level2">
-<h2 class="anchored" data-anchor-id="features">✨ Features</h2>
+<section id="build-artifacts-that-are-committed" class="level3">
+<h3 class="anchored" data-anchor-id="build-artifacts-that-are-committed">Build artifacts that ARE committed:</h3>
 <ul>
-<li>🌍 <strong>Bilingual Support</strong>: Full Chinese and English versions</li>
-<li>🔄 <strong>Language Switcher</strong>: Automatic page-to-page language switching</li>
-<li>🎨 <strong>Modern UI</strong>: Clean, professional academic design</li>
-<li>📱 <strong>Responsive</strong>: Works on all devices</li>
-<li>🚀 <strong>Fast</strong>: Static HTML for optimal performance</li>
-<li>🔍 <strong>Searchable</strong>: Built-in search for each language</li>
-<li>📄 <strong>PDF Support</strong>: Direct access to publications</li>
+<li>✅ <code>docs/zh/</code> - Chinese rendered HTML</li>
+<li>✅ <code>docs/en/</code> - English rendered HTML</li>
+<li>✅ <code>docs/assets/</code> - JavaScript files</li>
+<li>✅ <code>docs/images/</code> - Image files</li>
+<li>✅ <code>docs/pdf/</code> - PDF files</li>
+<li>✅ <code>docs/index.html</code> - Root redirect page</li>
 </ul>
 </section>
-<section id="technology-stack" class="level2">
-<h2 class="anchored" data-anchor-id="technology-stack">🛠️ Technology Stack</h2>
+</section>
+<section id="typical-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="typical-workflow">Typical Workflow</h2>
+<section id="make-changes-to-source-files" class="level3">
+<h3 class="anchored" data-anchor-id="make-changes-to-source-files">1. Make changes to source files</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Edit files in zh/ or en/</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">code</span> zh/index.qmd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">code</span> en/index.qmd</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="build-the-site" class="level3">
+<h3 class="anchored" data-anchor-id="build-the-site">2. Build the site</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Windows</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">build.bat</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Linux/Mac</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">./build.sh</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="test-locally" class="level3">
+<h3 class="anchored" data-anchor-id="test-locally">3. Test locally</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview Chinese version</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview docs/zh</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview English version</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview docs/en</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Or open in browser</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co"># file:///path/to/docs/zh/index.html</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co"># file:///path/to/docs/en/index.html</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="commit-everything" class="level3">
+<h3 class="anchored" data-anchor-id="commit-everything">4. Commit everything</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Update content and rebuild site"</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="verify-on-github-pages" class="level3">
+<h3 class="anchored" data-anchor-id="verify-on-github-pages">5. Verify on GitHub Pages</h3>
 <ul>
-<li><strong>Static Site Generator</strong>: <a href="https://quarto.org/">Quarto</a></li>
-<li><strong>Hosting</strong>: GitHub Pages</li>
-<li><strong>Language Switcher</strong>: Vanilla JavaScript (no dependencies)</li>
-<li><strong>Styling</strong>: Custom SCSS with Bootstrap</li>
+<li>Wait 1-2 minutes for GitHub Pages to update</li>
+<li>Visit: https://JiajunDu-ReSustain.github.io/</li>
 </ul>
 </section>
-<section id="project-structure" class="level2">
-<h2 class="anchored" data-anchor-id="project-structure">📁 Project Structure</h2>
-<pre><code>.
-├── zh/                  # Chinese content
-├── en/                  # English content
-├── docs/                # Rendered output (served by GitHub Pages)
-│   ├── zh/             # Chinese HTML
-│   ├── en/             # English HTML
-│   └── index.html      # Root redirect
-├── assets/              # JavaScript files
-├── images/              # Images and icons
-├── pdf/                 # Publication PDFs
-└── build.bat/sh         # Build scripts</code></pre>
 </section>
-<section id="quick-start" class="level2">
-<h2 class="anchored" data-anchor-id="quick-start">🚀 Quick Start</h2>
-<section id="prerequisites" class="level3">
-<h3 class="anchored" data-anchor-id="prerequisites">Prerequisites</h3>
-<ul>
-<li><a href="https://quarto.org/docs/get-started/">Quarto</a> 1.8 or higher</li>
-</ul>
+<section id="important-notes" class="level2">
+<h2 class="anchored" data-anchor-id="important-notes">Important Notes</h2>
+<section id="why-commit-docs" class="level3">
+<h3 class="anchored" data-anchor-id="why-commit-docs">Why commit docs/?</h3>
+<p>GitHub Pages serves directly from the <code>docs/</code> folder, so we must commit the rendered HTML files.</p>
 </section>
-<section id="building-the-site" class="level3">
-<h3 class="anchored" data-anchor-id="building-the-site">Building the Site</h3>
-<p><strong>Windows:</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">build.bat</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p><strong>Linux/Mac:</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x build.sh</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">./build.sh</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p><strong>Manual build:</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> zh <span class="kw">&amp;&amp;</span> <span class="ex">quarto</span> render <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> ..</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> en <span class="kw">&amp;&amp;</span> <span class="ex">quarto</span> render <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> ..</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">xcopy</span> /E /I /Y assets docs<span class="dt">\a</span>ssets</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ex">xcopy</span> /E /I /Y images docs<span class="dt">\i</span>mages</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">xcopy</span> /E /I /Y pdf docs<span class="dt">\p</span>df</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="when-to-rebuild" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-rebuild">When to rebuild?</h3>
+<p>Rebuild whenever you: - Change any <code>.qmd</code> content file - Update <code>_quarto.yml</code> configuration - Modify <code>styles.scss</code> - Add/remove pages - Update <code>assets/lang-switch.js</code></p>
 </section>
-<section id="local-preview" class="level3">
-<h3 class="anchored" data-anchor-id="local-preview">Local Preview</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview Chinese version</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview docs/zh</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview English version</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview docs/en</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="quick-rebuild-for-one-language" class="level3">
+<h3 class="anchored" data-anchor-id="quick-rebuild-for-one-language">Quick rebuild for one language</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Chinese only</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> zh <span class="kw">&amp;&amp;</span> <span class="ex">quarto</span> render <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> ..</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ex">xcopy</span> /E /I /Y assets docs<span class="dt">\a</span>ssets</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="ex">xcopy</span> /E /I /Y images docs<span class="dt">\i</span>mages</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="ex">xcopy</span> /E /I /Y pdf docs<span class="dt">\p</span>df</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># English only</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> en <span class="kw">&amp;&amp;</span> <span class="ex">quarto</span> render <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> ..</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="ex">xcopy</span> /E /I /Y assets docs<span class="dt">\a</span>ssets</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="ex">xcopy</span> /E /I /Y images docs<span class="dt">\i</span>mages</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="ex">xcopy</span> /E /I /Y pdf docs<span class="dt">\p</span>df</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="cleaning-build-artifacts" class="level3">
+<h3 class="anchored" data-anchor-id="cleaning-build-artifacts">Cleaning build artifacts</h3>
+<p>If you need to do a clean rebuild:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Windows</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">rmdir</span> /s /q docs<span class="dt">\z</span>h</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">rmdir</span> /s /q docs<span class="dt">\e</span>n</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="ex">build.bat</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Linux/Mac</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> <span class="at">-rf</span> docs/zh docs/en</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="ex">./build.sh</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 </section>
-<section id="documentation" class="level2">
-<h2 class="anchored" data-anchor-id="documentation">📖 Documentation</h2>
-<ul>
-<li><strong><a href="./BUILD_GUIDE.html">BUILD_GUIDE.md</a></strong> - Detailed build instructions</li>
-<li><strong><a href="./GIT_WORKFLOW.html">GIT_WORKFLOW.md</a></strong> - Git workflow and deployment</li>
-<li><strong><a href="./IMPLEMENTATION_SUMMARY.html">IMPLEMENTATION_SUMMARY.md</a></strong> - Implementation details</li>
-</ul>
-</section>
-<section id="adding-new-content" class="level2">
-<h2 class="anchored" data-anchor-id="adding-new-content">🔧 Adding New Content</h2>
-<ol type="1">
-<li>Create <code>.qmd</code> files in both <code>zh/</code> and <code>en/</code> directories</li>
-<li>Add navigation entries to <code>zh/_quarto.yml</code> and <code>en/_quarto.yml</code></li>
-<li>Run the build script</li>
-<li>Commit and push</li>
-</ol>
-<p>The language switcher will automatically handle the new pages!</p>
-</section>
-<section id="license" class="level2">
-<h2 class="anchored" data-anchor-id="license">📝 License</h2>
-<p>See <a href="LICENSE">LICENSE</a> file for details.</p>
-</section>
-<section id="author" class="level2">
-<h2 class="anchored" data-anchor-id="author">👤 Author</h2>
-<p><strong>Jiajun Du</strong> - Email: jiajundu@tongji.edu.cn - GitHub: <a href="https://github.com/JiajunDu-ReSustain"><span class="citation" data-cites="JiajunDu-ReSustain">@JiajunDu-ReSustain</span></a> - Google Scholar: <a href="https://scholar.google.com/citations?user=R41lYV0AAAAJ&amp;hl">Profile</a></p>
-</section>
-<section id="acknowledgments" class="level2">
-<h2 class="anchored" data-anchor-id="acknowledgments">🙏 Acknowledgments</h2>
-<ul>
-<li>Built with <a href="https://quarto.org/">Quarto</a></li>
-<li>Hosted on <a href="https://pages.github.com/">GitHub Pages</a></li>
-<li>Inspired by modern academic websites</li>
-</ul>
+<section id="github-pages-configuration" class="level2">
+<h2 class="anchored" data-anchor-id="github-pages-configuration">GitHub Pages Configuration</h2>
+<p>Make sure GitHub Pages is configured to serve from: - <strong>Branch</strong>: <code>main</code> - <strong>Folder</strong>: <code>/docs</code></p>
+<p>This can be configured in: Repository Settings → Pages → Build and deployment</p>
 
 
 </section>
@@ -671,7 +677,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/edit/main/readme.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/edit/main/GIT_WORKFLOW.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/JiajunDu-ReSustain/JiajunDu-ReSustain.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org/">Quarto</a><br></p>
 </div>
