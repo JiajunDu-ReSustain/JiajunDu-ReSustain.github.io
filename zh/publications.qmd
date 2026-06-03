@@ -15,6 +15,8 @@ editor: visual
 
 ### 🥬 可持续性
 
+-   **Du, J.**, Wang, W., Lou, T., Tomac, C. Risk-informed embodied-carbon compliance of new construction buildings: A probabilistic framework integrating seismic risk and dynamic decarbonization-consistent limits. **Engineering Structures**, 2026. [链接](https://doi.org/10.1016/j.engstruct.2026.123066), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/ES2026-Risk-informed-embodied-carbon-compliance.pdf)
+
 -   **Du, J.**, Wang, W., Wang, S. Seismic resilience comparison of CFST frame and HSS frame structures: An assessment based on economic and carbon emission indicators. **Journal of Constructional Steel Research**, 2024. [链接](https://doi.org/10.1016/j.jcsr.2024.108902), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JCSR2024-Seismic-resilience-comparison.pdf)
 
 -   **Du, J.**, Wang, W., Lou, T., Zhou, H. Resilience and sustainability-informed probabilistic multi-criteria decision-making framework for design solutions selection. **Journal of Building Engineering**, 2023. [链接](https://doi.org/10.1016/j.jobe.2023.106421), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JBE2023-Resilience-and-sustainability.pdf)
