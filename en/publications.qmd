@@ -17,7 +17,11 @@ editor: visual
 
 -   **Du, J.**, Wang, W., Lou, T., Toma, C. Risk-informed embodied-carbon compliance of new construction buildings: A probabilistic framework integrating seismic risk and dynamic decarbonization-consistent limits. **Engineering Structures**, 2026. [Link](https://doi.org/10.1016/j.engstruct.2026.123066), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/ES2026-Risk-informed-embodied-carbon-compliance.pdf)
 
+-   Shan, L., Wang, W., **Du, J.**, Huang, W., Yin, G. Sustainability optimization and life-cycle probabilistic assessment of beam-string steel strut systems for deep excavations. **Journal of Southeast University (Natural Science Edition)**, 2026. (in Chinese) [Link](https://d.wanfangdata.com.cn/periodical/dndxxb202611005), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/SEU2026-Beam-string-steel-strut-systems.pdf)
+
 -   **Du, J.**, Wang, W., Wang, S. Seismic resilience comparison of CFST frame and HSS frame structures: An assessment based on economic and carbon emission indicators. **Journal of Constructional Steel Research**, 2024. [Link](https://doi.org/10.1016/j.jcsr.2024.108902), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JCSR2024-Seismic-resilience-comparison.pdf)
+
+-   **Du, J.**, Wang, W., Zhang, R. Method of building seismic environmental impact assessment and its application to seismic resilience steel frames. **Earthquake Engineering and Engineering Dynamics**, 2024. (in Chinese) [Link](https://pubs.cstam.org.cn/article/doi/10.13197/j.eeed.2024.0402), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/EED2024-Building-seismic-environmental-impact.pdf)
 
 -   **Du, J.**, Wang, W., Lou, T., Zhou, H. Resilience and sustainability-informed probabilistic multi-criteria decision-making framework for design solutions selection. **Journal of Building Engineering**, 2023. [Link](https://doi.org/10.1016/j.jobe.2023.106421), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JBE2023-Resilience-and-sustainability.pdf)
 
@@ -29,6 +33,10 @@ editor: visual
 
 -   **Du, J.**, Wang, W., Zhang, J., Liu, X., Karavasilis, T. L. Seismic response of a prefabricated substation equipment cabin with base isolation: Full-scale shaking table test and numerical analysis. **Structures**, 2026. [Link](https://doi.org/10.1016/j.istruc.2026.111328), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/Str2026-Seismic-response-of-a-prefabricated-substation.pdf)
 
+-   **Du, J.**, Wang, W., Zhang, J., Xu, C., Shi, Y., Karavasilis, T. L. Shaking table tests and isolation layer optimization of seismic isolation structures for prefabricated cabin substations. **Journal of Southeast University (Natural Science Edition)**, 2026. (in Chinese) [Link](https://link.cnki.net/urlid/32.1178.N.20260402.1815.004), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/SEU2026-Shaking-table-tests-isolation-layer.pdf)
+
+-   Wang, W., Zhang, J., **Du, J.**, Li, G., Jin, Z., Karavasilis, T. L. Research on seismic response and structural design method of prefabricated cabin substation. **Journal of Southeast University (Natural Science Edition)**, 2026. (in Chinese) [Link](https://doi.org/10.3969/j.issn.1001-0505.2026.01.005), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/SEU2026-Seismic-response-prefabricated-cabin-substation.pdf)
+
 -   **Du, J.**, Wang, W., Zhang, J., Liu, X., Karavasilis, T. L. Full-scale shaking table test, numerical analysis, and design strategy of a prefabricated substation equipment cabin. **Engineering Structures**, 2025. [Link](https://doi.org/10.1016/j.engstruct.2025.121391), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/ES2025-Full-scale-shaking-table-test.pdf)
 
 -   Hou, H., Wang, W., Alam, M. S., Wang, S., **Du, J.** Experimental and Numerical Investigation on Seismic Performance and Yielding Sequence of Coupled-Double Skin Composite Walls. **Thin-Walled Structures**, 2025. [Link](https://doi.org/10.1016/j.tws.2025.113646), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/TWS2025-Experimental-and-Numerical-Investigation.pdf)
@@ -39,9 +47,12 @@ editor: visual
 
 -   **Du, J.**, Wang, W. Surrogate model-aided global sensitivity analysis framework for seismic consequences estimation in buildings. **Earthquake Engineering & Structural Dynamics**, 2024. [Link](https://doi.org/10.1002/eqe.4116), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/EESD2024-Surrogate-model-aided.pdf)
 
+-   Zhao, G., Xu, L., **Du, J.**, Zhu, J., Zhu, X., Xie, L. Probabilistic seismic demand models for steel frame structures subjected to pulse-like ground motions. **Journal of Zhejiang University (Engineering Science)**, 2023. (in Chinese) [Link](https://doi.org/10.3785/j.issn.1008-973X.2023.06.003), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/ZJU2023-Probabilistic-seismic-demand-models.pdf)
+
 ## Research Projects
 
-1.  National Natural Science Foundation of China, General Project, 52378182, Research on multi-state seismic response mechanism and design control method for comprehensive resilience improvement of steel frame structures based on self-centering hybrid damping, 2024.01-2027.12, Participant
-2.  Shanghai Science and Technology Plan Project, 22dz1201705, Research on high-performance modular space assembly energy efficiency improvement technology based on numerical simulation, 2022.09-2025.08, Participant
-3.  National Key R&D Program, 2022YFC3801904, Fully assembled seismic high-toughness steel frame structure system and standardized key technologies, 2022.11-2026.10, Participant
-4.  Tongji University International Cooperation Joint Laboratory of Earthquake Engineering, Resilience and sustainability-informed steel structure design assessment and optimization, Participant
+1.  National Natural Science Foundation of China, General Project, 52678254, Data-driven multidimensional collaborative evaluation mechanisms and intelligent methods for seismic resilience and sustainability of steel framed structures, 2027.01-2030.12, Participant
+2.  National Natural Science Foundation of China, General Project, 52378182, Research on multi-state seismic response mechanism and design control method for comprehensive resilience improvement of steel frame structures based on self-centering hybrid damping, 2024.01-2027.12, Participant
+3.  Shanghai Science and Technology Plan Project, 22dz1201705, Research on high-performance modular space assembly energy efficiency improvement technology based on numerical simulation, 2022.09-2025.08, Participant
+4.  National Key R&D Program, 2022YFC3801904, Fully assembled seismic high-toughness steel frame structure system and standardized key technologies, 2022.11-2026.10, Participant
+5.  Tongji University International Cooperation Joint Laboratory of Earthquake Engineering, Resilience and sustainability-informed steel structure design assessment and optimization, Participant

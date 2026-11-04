@@ -17,7 +17,11 @@ editor: visual
 
 -   **Du, J.**, Wang, W., Lou, T., Toma, C. Risk-informed embodied-carbon compliance of new construction buildings: A probabilistic framework integrating seismic risk and dynamic decarbonization-consistent limits. **Engineering Structures**, 2026. [链接](https://doi.org/10.1016/j.engstruct.2026.123066), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/ES2026-Risk-informed-embodied-carbon-compliance.pdf)
 
+-   单兰棋，王伟，**杜佳俊**，黄炜，阴光华. 深基坑张弦梁钢桁架支撑体系可持续性优化与全生命周期概率评估. **东南大学学报（自然科学版）**，2026，56（11）：1549-1556. [链接](https://d.wanfangdata.com.cn/periodical/dndxxb202611005), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/SEU2026-Beam-string-steel-strut-systems.pdf)
+
 -   **Du, J.**, Wang, W., Wang, S. Seismic resilience comparison of CFST frame and HSS frame structures: An assessment based on economic and carbon emission indicators. **Journal of Constructional Steel Research**, 2024. [链接](https://doi.org/10.1016/j.jcsr.2024.108902), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JCSR2024-Seismic-resilience-comparison.pdf)
+
+-   **杜佳俊**，王伟，张瑞斌. 建筑抗震环境影响评估方法及在可恢复功能钢框架中的应用. **地震工程与工程振动**，2024，44（4）：15-25. [链接](https://pubs.cstam.org.cn/article/doi/10.13197/j.eeed.2024.0402), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/EED2024-Building-seismic-environmental-impact.pdf)
 
 -   **Du, J.**, Wang, W., Lou, T., Zhou, H. Resilience and sustainability-informed probabilistic multi-criteria decision-making framework for design solutions selection. **Journal of Building Engineering**, 2023. [链接](https://doi.org/10.1016/j.jobe.2023.106421), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/JBE2023-Resilience-and-sustainability.pdf)
 
@@ -29,6 +33,10 @@ editor: visual
 
 -   **Du, J.**, Wang, W., Zhang, J., Liu, X., Karavasilis, T. L. Seismic response of a prefabricated substation equipment cabin with base isolation: Full-scale shaking table test and numerical analysis. **Structures**, 2026. [链接](https://doi.org/10.1016/j.istruc.2026.111328), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/Str2026-Seismic-response-of-a-prefabricated-substation.pdf)
 
+-   **杜佳俊**，王伟，张佳辰，许成波，石运东，KARAVASILIS Theodoros. 预制舱式变电站隔震结构振动台试验及隔震层优化研究. **东南大学学报（自然科学版）**，2026（网络首发）. [链接](https://link.cnki.net/urlid/32.1178.N.20260402.1815.004), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/SEU2026-Shaking-table-tests-isolation-layer.pdf)
+
+-   王伟，张佳辰，**杜佳俊**，李广智，金钊，THEODOROS Karavasilis. 预制舱式变电站的地震响应与结构设计方法研究. **东南大学学报（自然科学版）**，2026，56（1）：40-51. [链接](https://doi.org/10.3969/j.issn.1001-0505.2026.01.005), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/SEU2026-Seismic-response-prefabricated-cabin-substation.pdf)
+
 -   **Du, J.**, Wang, W., Zhang, J., Liu, X., Karavasilis, T. L. Full-scale shaking table test, numerical analysis, and design strategy of a prefabricated substation equipment cabin. **Engineering Structures**, 2025. [链接](https://doi.org/10.1016/j.engstruct.2025.121391), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/ES2025-Full-scale-shaking-table-test.pdf)
 
 -   Hou, H., Wang, W., Alam, M. S., Wang, S., **Du, J.** Experimental and Numerical Investigation on Seismic Performance and Yielding Sequence of Coupled-Double Skin Composite Walls. **Thin-Walled Structures**, 2025. [链接](https://doi.org/10.1016/j.tws.2025.113646), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/TWS2025-Experimental-and-Numerical-Investigation.pdf)
@@ -39,9 +47,12 @@ editor: visual
 
 -   **Du, J.**, Wang, W. Surrogate model-aided global sensitivity analysis framework for seismic consequences estimation in buildings. **Earthquake Engineering & Structural Dynamics**, 2024. [链接](https://doi.org/10.1002/eqe.4116), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/EESD2024-Surrogate-model-aided.pdf)
 
+-   赵国臣，徐龙军，**杜佳俊**，朱敬洲，朱兴吉，谢礼立. 脉冲型地震动作用下钢框架结构地震需求概率模型. **浙江大学学报（工学版）**，2023，57（6）：1080-1089. [链接](https://doi.org/10.3785/j.issn.1008-973X.2023.06.003), [-PDF-](https://JiajunDu-ReSustain.github.io/pdf/ZJU2023-Probabilistic-seismic-demand-models.pdf)
+
 ## 科研项目
 
-1.  国家自然科学基金委员会，面上项目，52378182，基于自复位混合阻尼实现钢框架结构综合韧性提升的多性态地震响应机理与设计调控方法研究，2024.01-2027.12，参与
-2.  上海市科技计划项目，22dz1201705，基于数值仿真的高性能模块化空间装配能效提升技术研究，2022.09-2025.08，参与
-3.  国家重点研发计划，2022YFC3801904，全装配抗震高韧性钢框架结构体系与标准化关键技术，2022.11-2026.10，参与
-4.  同济大学地震工程国际合作联合实验室中外合作项目，Resilience and sustainability-informed steel structure design assessment and optimization，参与
+1.  国家自然科学基金委员会，面上项目，52678254，数据驱动的钢框架抗震韧性及可持续性多维协同评价机制与智能设计方法研究，2027.01-2030.12，参与
+2.  国家自然科学基金委员会，面上项目，52378182，基于自复位混合阻尼实现钢框架结构综合韧性提升的多性态地震响应机理与设计调控方法研究，2024.01-2027.12，参与
+3.  上海市科技计划项目，22dz1201705，基于数值仿真的高性能模块化空间装配能效提升技术研究，2022.09-2025.08，参与
+4.  国家重点研发计划，2022YFC3801904，全装配抗震高韧性钢框架结构体系与标准化关键技术，2022.11-2026.10，参与
+5.  同济大学地震工程国际合作联合实验室中外合作项目，Resilience and sustainability-informed steel structure design assessment and optimization，参与
